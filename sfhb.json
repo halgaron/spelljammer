@@ -271,32 +271,6 @@
             "hasFluff": true
         },
         {
-            "name": "Variant Sailor (Superstar)",
-            "source": "PHB",
-            "page": 139,
-            "_copy": {
-                "name": "Sailor2",
-                "source": "PHB",
-                "_mod": {
-                    "entries": {
-                        "mode": "replaceArr",
-                        "replace": "Feature: Ship's Passage",
-                        "items": {
-                            "name": "Feature: Tax Collector",
-                            "type": "entries",
-                            "entries": [
-                                "I collect taxes."
-                            ],
-                            "data": {
-                                "isFeature": true
-                            }
-                        }
-                    }
-                }
-            },
-            "hasFluff": true
-        },
-        {
             "name": "Sailor2",
             "source": "PHB",
             "page": 139,
@@ -528,6 +502,32 @@
                     ]
                 }
             ],
+            "hasFluff": true
+        },
+        {
+            "name": "Variant Sailor (Superstar)",
+            "source": "PHB",
+            "page": 139,
+            "_copy": {
+                "name": "Sailor2",
+                "source": "PHB",
+                "_mod": {
+                    "entries": {
+                        "mode": "replaceArr",
+                        "replace": "Feature: Ship's Passage",
+                        "items": {
+                            "name": "Feature: Tax Collector",
+                            "type": "entries",
+                            "entries": [
+                                "I collect taxes."
+                            ],
+                            "data": {
+                                "isFeature": true
+                            }
+                        }
+                    }
+                }
+            },
             "hasFluff": true
         }
     ]
