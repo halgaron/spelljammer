@@ -28,6 +28,12 @@
                     "perception": true
                 }
             ],
+            "toolProficiencies": [
+                {
+                    "navigator's tools": true,
+                    "vehicles (water)": true
+                }
+            ],
             "languageProficiencies": [
                 {
                     "anyStandard": 2
@@ -73,6 +79,11 @@
                             "type": "item",
                             "name": "Languages",
                             "entry": "Two of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@item Navigator's tools|phb}, {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
                         },
                         {
                             "type": "item",
@@ -257,6 +268,32 @@
                     ]
                 }
             ],
+            "hasFluff": true
+        },
+        {
+            "name": "Variant Sailor (Superstar)",
+            "source": "PHB",
+            "page": 139,
+            "_copy": {
+                "name": "Sailor",
+                "source": "PHB",
+                "_mod": {
+                    "entries": {
+                        "mode": "replaceArr",
+                        "replace": "Feature: Ship's Passage",
+                        "items": {
+                            "name": "Feature: Tax Collector",
+                            "type": "entries",
+                            "entries": [
+                                "I collect taxes."
+                            ],
+                            "data": {
+                                "isFeature": true
+                            }
+                        }
+                    }
+                }
+            },
             "hasFluff": true
         }
     ]
