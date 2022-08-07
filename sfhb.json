@@ -37,11 +37,11 @@
                 {
                     "_": [
                         {
-                            "special": "Letter of marque (from the recognized authoirty of your chosen port)",
+                            "special": "Letter of marque (from the recognized authority of your chosen port)",
                             "quantity": 5
                         },
                         {
-                            "special": "vestments"
+                            "special": "merchant's scale"
                         },
                         "travelers clothes|phb",
                         {
@@ -54,7 +54,7 @@
                         },
                         {
                             "item": "book|phb",
-                            "displayName": "Tax and Customs Refrence Guide"
+                            "displayName": "Tax and Customs Reference Guide"
                         }
                     ]
                 }
@@ -77,7 +77,7 @@
                         {
                             "type": "item",
                             "name": "Equipment",
-                            "entry": "A {@item holy symbol|phb} (a gift to you when you entered the priesthood), a prayer {@item book|phb} or prayer wheel, 5 sticks of incense, vestments, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+                            "entry": "A letter of marque, (from the recognized authority of your chosen port), a {@item merchant’s scale|phb} a set of {@item traveler's clothes|phb}, a tax and customs ledger and reference {@item book|phb} and a belt {@item pouch|phb} containing 25 gp"
                         }
                     ]
                 },
@@ -97,7 +97,7 @@
                     "name": "Suggested Characteristics",
                     "type": "entries",
                     "entries": [
-                        "Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
+                        "Being a corsair can be a rough profession, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
                         {
                             "type": "table",
                             "colLabels": [
@@ -164,11 +164,11 @@
                                 ],
                                 [
                                     "3",
-                                    "Freedom. The sea is freedom\u2014the freedom to go anywhere and do anything. (Chaotic)"
+                                    "Freedom. The reaches of space is freedom\u2014the freedom to go anywhere and do anything. (Chaotic)"
                                 ],
                                 [
                                     "4",
-                                    "Mastery. I'm a predator, and the other ships on the sea are my prey. (Evil)"
+                                    "Mastery. I'm a predator, and the other ships are my prey. (Evil)"
                                 ],
                                 [
                                     "5",
@@ -205,7 +205,7 @@
                                 ],
                                 [
                                     "4",
-                                    "In a harbor town, I have a paramour whose eyes nearly stole me from the sea."
+                                    "In a harbor town, I have a paramour whose eyes nearly stole me from the depths of wildspace."
                                 ],
                                 [
                                     "5",
