@@ -2,14 +2,14 @@
     "_meta": {
         "sources": [
             {
-                "json": "spelljammer",
-                "abbreviation": "SJ",
-                "full": "Spelljammer",
+                "json": "sfhb",
+                "abbreviation": "SFHB",
+                "full": "Spelljammer:Space Farers Handbook",
                 "authors": [
                     "halragon"
                 ],
                 "version": "1.0.0",
-                "url": "https://raw.githubusercontent.com/halgaron/spelljammer/main/spelljammer.json",
+                "url": "https://raw.githubusercontent.com/halgaron/spelljammer/main/sfhb.json",
                 "targetSchema": "1.0.0"
             }
         ],
@@ -18,14 +18,14 @@
     },
     "background": [
         {
-            "name": "Acolyte",
-            "source": "PHB",
-            "page": 127,
-            "srd": true,
+            "name": "Corsair",
+            "source": "SFHB",
+            "page": 30,
+            "srd": false,
             "skillProficiencies": [
                 {
-                    "insight": true,
-                    "religion": true
+                    "history": true,
+                    "perception": true
                 }
             ],
             "languageProficiencies": [
@@ -37,33 +37,24 @@
                 {
                     "_": [
                         {
-                            "item": "holy symbol|phb",
-                            "displayName": "holy symbol (a gift to you when you entered the priesthood)"
-                        },
-                        {
-                            "special": "sticks of incense",
+                            "special": "Letter of marque (from the recognized authoirty of your chosen port)",
                             "quantity": 5
                         },
                         {
                             "special": "vestments"
                         },
-                        "common clothes|phb",
+                        "travelers clothes|phb",
                         {
                             "item": "pouch|phb",
-                            "containsValue": 1500
-                        }
-                    ]
-                },
-                {
-                    "a": [
+                            "containsValue": 2500
+                        },
                         {
                             "item": "book|phb",
-                            "displayName": "prayer book"
-                        }
-                    ],
-                    "b": [
+                            "displayName": "Tax and Customs Ledger"
+                        },
                         {
-                            "special": "prayer wheel"
+                            "item": "book|phb",
+                            "displayName": "Tax and Customs Refrence Guide"
                         }
                     ]
                 }
@@ -76,7 +67,7 @@
                         {
                             "type": "item",
                             "name": "Skill Proficiencies",
-                            "entry": "{@skill Insight}, {@skill Religion}"
+                            "entry": "{@skill History}, {@skill Perception}"
                         },
                         {
                             "type": "item",
@@ -91,11 +82,12 @@
                     ]
                 },
                 {
-                    "name": "Feature: Shelter of the Faithful",
+                    "name": "Feature: Right of Passage",
                     "type": "entries",
                     "entries": [
-                        "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
-                        "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+                        "Corsairs have the right, under letters of marque, to legally stop any ship within their home port's sphere of control. 'Home port' need not be a planet; it could be a fixed base or even a fleet mothership. Within the sphere of control, the Corsair may legally stop vessels, board them, assess customs duties, and seize contraband. This also gives you the right of passage and safe harbor throughout your home port and system with entities that are friendly to your nation.",
+                        "Contraband may be any item that is illegal to import or export, or an item for which the proper taxes have not been paid. In addition, at the DM's discretion, there may be certain enemy nations whose ships are always confiscated (such as the neogi). Of course, not every ship is going to peacefully await boarding. A neogi deathspider is unlikely to quietly acquiesce to such an action; if the neogi do allow boarding, a Corsair captain can be assured of an ambush. The only real meaning of this power is that law-abiding ships will comply, and any hostile action taken against other ships will probably be supported by the Corsair's commanders back home. Corsairs keep 10% of the contraband cargo seized and taxes collected to pay expenses and reward the crew. Some Corsairs withhold more than 10%, risking discovery and prosecution. ",
+                        "In exchange for the above privileges, The Corsair must return to his home port regularly (at least every six months) to report on his activities, and of course must give 90% of the value of cargoes and ships he seizes to his command at that base. In addition, the home base may choose to send the Corsair on missions that he must undertake. The cost of mounting the mission (including paying her crew) is borne by the Corsair, although as with all of her other activities he may keep 10% of what he finds. Finally, Corsairs are obligated to defend the home base. This can be a great disadvantage when the neogi show up and the Corsair would much prefer to head for safer climes. "
                     ],
                     "data": {
                         "isFeature": true
@@ -105,7 +97,7 @@
                     "name": "Suggested Characteristics",
                     "type": "entries",
                     "entries": [
-                        "Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+                        "Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
                         {
                             "type": "table",
                             "colLabels": [
@@ -119,35 +111,35 @@
                             "rows": [
                                 [
                                     "1",
-                                    "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."
+                                    "My friends know they can rely on me, no matter what."
                                 ],
                                 [
                                     "2",
-                                    "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace."
+                                    "I work hard so that I can play hard when the work is done."
                                 ],
                                 [
                                     "3",
-                                    "I see omens in every event and action. The gods try to speak to us, we just need to listen."
+                                    "I enjoy sailing into new ports and making new friends over a flagon of ale."
                                 ],
                                 [
                                     "4",
-                                    "Nothing can shake my optimistic attitude."
+                                    "I stretch the truth for the sake of a good story."
                                 ],
                                 [
                                     "5",
-                                    "I quote (or misquote) sacred texts and proverbs in almost every situation."
+                                    "To me, a tavern brawl is a nice way to get to know a new city."
                                 ],
                                 [
                                     "6",
-                                    "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods."
+                                    "I never pass up a friendly wager."
                                 ],
                                 [
                                     "7",
-                                    "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
+                                    "My language is as foul as an otyugh nest."
                                 ],
                                 [
                                     "8",
-                                    "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+                                    "I like a job well done, especially if I can convince someone else to do it."
                                 ]
                             ]
                         },
@@ -164,27 +156,27 @@
                             "rows": [
                                 [
                                     "1",
-                                    "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)"
+                                    "Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)"
                                 ],
                                 [
                                     "2",
-                                    "Charity. I always try to help those in need, no matter what the personal cost. (Good)"
+                                    "Fairness. We all do the work, so we all share in the rewards. (Lawful)"
                                 ],
                                 [
                                     "3",
-                                    "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)"
+                                    "Freedom. The sea is freedom\u2014the freedom to go anywhere and do anything. (Chaotic)"
                                 ],
                                 [
                                     "4",
-                                    "Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)"
+                                    "Mastery. I'm a predator, and the other ships on the sea are my prey. (Evil)"
                                 ],
                                 [
                                     "5",
-                                    "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)"
+                                    "People. I'm committed to my crewmates, not to ideals. (Neutral)"
                                 ],
                                 [
                                     "6",
-                                    "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any)"
+                                    "Aspiration. Someday, I'll own my own ship and chart my own destiny. (Any)"
                                 ]
                             ]
                         },
@@ -201,27 +193,27 @@
                             "rows": [
                                 [
                                     "1",
-                                    "I would die to recover an ancient relic of my faith that was lost long ago."
+                                    "I'm loyal to my captain first, everything else second."
                                 ],
                                 [
                                     "2",
-                                    "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic."
+                                    "The ship is most important\u2014crewmates and captains come and go."
                                 ],
                                 [
                                     "3",
-                                    "I owe my life to the priest who took me in when my parents died."
+                                    "I'll always remember my first ship."
                                 ],
                                 [
                                     "4",
-                                    "Everything I do is for the common people."
+                                    "In a harbor town, I have a paramour whose eyes nearly stole me from the sea."
                                 ],
                                 [
                                     "5",
-                                    "I will do anything to protect the temple where I served."
+                                    "I was cheated out of my fair share of the profits, and I want to get my due."
                                 ],
                                 [
                                     "6",
-                                    "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+                                    "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
                                 ]
                             ]
                         },
@@ -238,27 +230,27 @@
                             "rows": [
                                 [
                                     "1",
-                                    "I judge others harshly, and myself even more severely."
+                                    "I follow orders, even if I think they're wrong."
                                 ],
                                 [
                                     "2",
-                                    "I put too much trust in those who wield power within my temple's hierarchy."
+                                    "I'll say anything to avoid having to do extra work."
                                 ],
                                 [
                                     "3",
-                                    "My piety sometimes leads me to blindly trust those that profess faith in my god."
+                                    "Once someone questions my courage, I never back down no matter how dangerous the situation."
                                 ],
                                 [
                                     "4",
-                                    "I am inflexible in my thinking."
+                                    "Once I start drinking, it's hard for me to stop."
                                 ],
                                 [
                                     "5",
-                                    "I am suspicious of strangers and expect the worst of them."
+                                    "I can't help but pocket loose coins and other trinkets I come across."
                                 ],
                                 [
                                     "6",
-                                    "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+                                    "My pride will probably lead to my destruction."
                                 ]
                             ]
                         }
