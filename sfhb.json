@@ -272,7 +272,7 @@
         },
         {
             "name": "Sailor2",
-            "source": "PHB",
+            "source": "PHB2",
             "page": 139,
             "skillProficiencies": [
                 {
@@ -510,7 +510,7 @@
             "page": 139,
             "_copy": {
                 "name": "Sailor2",
-                "source": "PHB",
+                "source": "PHB2",
                 "_mod": {
                     "entries": {
                         "mode": "replaceArr",
