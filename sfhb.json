@@ -34,11 +34,6 @@
                     "vehicles (water)": true
                 }
             ],
-            "languageProficiencies": [
-                {
-                    "anyStandard": 2
-                }
-            ],
             "startingEquipment": [
                 {
                     "_": [
@@ -74,11 +69,6 @@
                             "type": "item",
                             "name": "Skill Proficiencies",
                             "entry": "{@skill History}, {@skill Perception}"
-                        },
-                        {
-                            "type": "item",
-                            "name": "Languages",
-                            "entry": "Two of your choice"
                         },
                         {
                             "type": "item",
