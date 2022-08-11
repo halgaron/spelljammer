@@ -165,7 +165,7 @@
                         {
                             "type": "item",
                             "name": "Weapon Proficiencies",
-                            "entry": "Proficiency in the favored weapon of your diety (Work with your DM to find older D&D lore depending on the diety you choose, if you cannot find an equivalent, you can pick from either a {@item longsword|phb}, {@item spear|phb}, {@item warhammer|phb} or {@item Battleaxe|phb}),"
+                            "entry": "Proficiency in the favored weapon of your diety (Work with your DM to find older D&D lore depending on the diety you choose, if you cannot find an equivalent, you can pick from either a {@item Longsword|phb}, {@item Spear|phb}, {@item Warhammer|phb} or {@item Battleaxe|phb}),"
                         },
                         {
                             "type": "item",
@@ -175,7 +175,7 @@
                         {
                             "type": "item",
                             "name": "Equipment",
-                            "entry": "{@item holy symbol|phb} (a gift to you when you entered the religion), a prayer {@item book|phb}, a simple or martial weapon that is your diety’s favored weapon(see above) , a signet, banner, or seal representing your place or rank in the military company, a set of {@item Common clothes|phb}, and a belt {@item pouch|phb} containing 5 gp"
+                            "entry": "{@item holy symbol|phb} (a gift to you when you joined the crusade), a prayer {@item book|phb}, a simple or martial weapon that is your diety’s favored weapon(see above) , a signet, banner, or seal representing your place or rank in the military company, a set of {@item Common clothes|phb}, and a belt {@item pouch|phb} containing 5 gp"
                         }
 
                     ]
@@ -184,7 +184,7 @@
                     "name": "Feature: Champion of the Faith",
                     "type": "entries",
                     "entries": [
-                        "You gain the Fighting Initiate from Tasha’s Cauldron of Everything. The style chosen must match your diety’s favored weapon. (Ex: Archery for a ranged weapon, Dueling for a one handed weapon, Great weapon fighting for a versatile or heavy weapon, or Thrown Weapon Fighting for a weapon with the thrown property. Work this out with your DM as needed)",
+                        "You gain the {@feat Fighting Initiate} from Tasha’s Cauldron of Everything. The {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} chosen must match your diety’s favored weapon. (Ex: Archery for a ranged weapon, Dueling for a one handed  DAggoweapon, Great weapon fighting for a versatile or heavy weapon, or Thrown Weapon Fighting for a weapon with the thrown property. Work this out with your DM as needed)",
                         "The Crusader has the backing of his faith and can turn to his superiors for assistance. Although the DM must adjudicate how this affects play, the Crusader can count on his faith's emotional support—and perhaps even financial support—if he wants to pursue a goal consistent with the goals of the religion. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
                         "The primary hindrance of the Crusader is his duty to his religion and his superiors. Naturally, the faith makes many demands on its faithful warriors. If the Crusader is a common soldier, he's subject to the orders of his officers. If the Crusader is a military officer, he's subject to the orders of his superiors and the priesthood, and bears the added stress of having to look after his men whenever they're engaged in military action. Also, many faiths do not restrict their requests to simple military actions. Crusaders (particularly uniquely talented ones like PCs) are sent all over the Known Spheres on special quests and adventures. Often, pay for these assignments is nothing more than the monthly pay-ration and a verbal 'Well done' from the Crusader's immediate superior."
                     ],
