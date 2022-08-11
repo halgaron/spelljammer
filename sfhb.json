@@ -73,7 +73,7 @@
                         {
                             "type": "item",
                             "name": "Tool Proficiencies",
-                            "entry": "{@item Navigator's tools|phb}, {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+                            "entry": "{@item Navigator's tools|phb}, {@filter vehicles (space)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (space)}"
                         },
                         {
                             "type": "item",
@@ -95,203 +95,59 @@
                     }
                 },
                 {
-                    "name": "Suggested Characteristics",
                     "type": "entries",
+                    "name": "Suggested Characteristics",
                     "entries": [
-                        "Being a corsair can be a rough profession, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d8",
-                                "Personality Trait"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "My friends know they can rely on me, no matter what."
-                                ],
-                                [
-                                    "2",
-                                    "I work hard so that I can play hard when the work is done."
-                                ],
-                                [
-                                    "3",
-                                    "I enjoy sailing into new ports and making new friends over a flagon of ale."
-                                ],
-                                [
-                                    "4",
-                                    "I stretch the truth for the sake of a good story."
-                                ],
-                                [
-                                    "5",
-                                    "To me, a tavern brawl is a nice way to get to know a new city."
-                                ],
-                                [
-                                    "6",
-                                    "I never pass up a friendly wager."
-                                ],
-                                [
-                                    "7",
-                                    "My language is as foul as an otyugh nest."
-                                ],
-                                [
-                                    "8",
-                                    "I like a job well done, especially if I can convince someone else to do it."
-                                ]
-                            ]
-                        },
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d6",
-                                "Ideal"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)"
-                                ],
-                                [
-                                    "2",
-                                    "Fairness. We all do the work, so we all share in the rewards. (Lawful)"
-                                ],
-                                [
-                                    "3",
-                                    "Freedom. The reaches of space is freedom\u2014the freedom to go anywhere and do anything. (Chaotic)"
-                                ],
-                                [
-                                    "4",
-                                    "Mastery. I'm a predator, and the other ships are my prey. (Evil)"
-                                ],
-                                [
-                                    "5",
-                                    "People. I'm committed to my crewmates, not to ideals. (Neutral)"
-                                ],
-                                [
-                                    "6",
-                                    "Aspiration. Someday, I'll own my own ship and chart my own destiny. (Any)"
-                                ]
-                            ]
-                        },
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d6",
-                                "Bond"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "I'm loyal to my captain first, everything else second."
-                                ],
-                                [
-                                    "2",
-                                    "The ship is most important\u2014crewmates and captains come and go."
-                                ],
-                                [
-                                    "3",
-                                    "I'll always remember my first ship."
-                                ],
-                                [
-                                    "4",
-                                    "In a harbor town, I have a paramour whose eyes nearly stole me from the depths of wildspace."
-                                ],
-                                [
-                                    "5",
-                                    "I was cheated out of my fair share of the profits, and I want to get my due."
-                                ],
-                                [
-                                    "6",
-                                    "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
-                                ]
-                            ]
-                        },
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d6",
-                                "Flaw"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "I follow orders, even if I think they're wrong."
-                                ],
-                                [
-                                    "2",
-                                    "I'll say anything to avoid having to do extra work."
-                                ],
-                                [
-                                    "3",
-                                    "Once someone questions my courage, I never back down no matter how dangerous the situation."
-                                ],
-                                [
-                                    "4",
-                                    "Once I start drinking, it's hard for me to stop."
-                                ],
-                                [
-                                    "5",
-                                    "I can't help but pocket loose coins and other trinkets I come across."
-                                ],
-                                [
-                                    "6",
-                                    "My pride will probably lead to my destruction."
-                                ]
-                            ]
-                        }
+                        "Use the tables for the {@background sailor} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as Corsair .",
+                        "Your bond almost always involves the sphere/planet/port that you chose, and it is highly unusual for a corsair's ideal not to reflect the agenda of the chosen port."
                     ]
                 }
             ],
             "hasFluff": true
         },
         {
-            "name": "Sailor2",
-            "source": "PHB2",
+            "name": "Crusader",
+            "source": "SFHB",
             "page": 139,
             "skillProficiencies": [
                 {
                     "athletics": true,
-                    "perception": true
+                    "religion": true
                 }
             ],
-            "toolProficiencies": [
+            "languageProficiencies": [
                 {
-                    "navigator's tools": true,
-                    "vehicles (water)": true
+                    "anyStandard": 1
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "anyStandard": 1
                 }
             ],
             "startingEquipment": [
                 {
                     "_": [
                         {
-                            "item": "club|phb",
-                            "displayName": "belaying pin"
+                            "item": "holy symbol|phb"
                         },
-                        "silk rope (50 feet)|phb",
-                        {
-                            "item": "trinket|phb",
-                            "displayName": "lucky charm"
-                        },
-                        "common clothes|phb",
+                            {
+                                "item": "book|phb",
+                                "displayName": "prayer book"
+                            },
+                            {
+                                "special": "a signet, banner, or seal representing your place or rank in the order"
+                            },
+                            {
+                                "item": "traveler's clothes|phb",
+                                "displayName": "uniform of your diety's military company"
+                            },
+                            {
+                                "special": "a simple or martial weapon that is your diety’s favored weapon. (if you cannot find an equivalent, you can pick from either a Longsword, Spear, Warhammer or Battleaxe)"
+                            },
                         {
                             "item": "pouch|phb",
-                            "containsValue": 1000
+                            "containsValue": 500
                         }
                     ]
                 }
@@ -304,220 +160,47 @@
                         {
                             "type": "item",
                             "name": "Skill Proficiencies",
-                            "entry": "{@skill Athletics}, {@skill Perception}"
+                            "entry": "{@skill Athletics}, {@skill Religion}"
                         },
                         {
                             "type": "item",
-                            "name": "Tool Proficiencies",
-                            "entry": "{@item Navigator's tools|phb}, {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+                            "name": "Weapon Proficiencies",
+                            "entry": "Proficiency in the favored weapon of your diety (Work with your DM to find older D&D lore depending on the diety you choose, if you cannot find an equivalent, you can pick from either a {@item longsword|phb}, {@item spear|phb}, {@item warhammer|phb} or {@item Battleaxe|phb}),"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "Any one of your choice"
                         },
                         {
                             "type": "item",
                             "name": "Equipment",
-                            "entry": "A belaying pin ({@item club|phb}), {@item silk rope (50 feet)|phb}, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random {@item trinket|phb} on the Trinkets table in chapter 5), a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+                            "entry": "{@item holy symbol|phb} (a gift to you when you entered the religion), a prayer {@item book|phb}, a simple or martial weapon that is your diety’s favored weapon(see above) , a signet, banner, or seal representing your place or rank in the military company, a set of {@item Common clothes|phb}, and a belt {@item pouch|phb} containing 5 gp"
                         }
+
                     ]
                 },
                 {
-                    "name": "Feature: Ship's Passage",
+                    "name": "Feature: Champion of the Faith",
                     "type": "entries",
                     "entries": [
-                        "When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
+                        "You gain the Fighting Initiate from Tasha’s Cauldron of Everything. The style chosen must match your diety’s favored weapon. (Ex: Archery for a ranged weapon, Dueling for a one handed weapon, Great weapon fighting for a versatile or heavy weapon, or Thrown Weapon Fighting for a weapon with the thrown property. Work this out with your DM as needed)",
+                        "The Crusader has the backing of his faith and can turn to his superiors for assistance. Although the DM must adjudicate how this affects play, the Crusader can count on his faith's emotional support—and perhaps even financial support—if he wants to pursue a goal consistent with the goals of the religion. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
+                        "The primary hindrance of the Crusader is his duty to his religion and his superiors. Naturally, the faith makes many demands on its faithful warriors. If the Crusader is a common soldier, he's subject to the orders of his officers. If the Crusader is a military officer, he's subject to the orders of his superiors and the priesthood, and bears the added stress of having to look after his men whenever they're engaged in military action. Also, many faiths do not restrict their requests to simple military actions. Crusaders (particularly uniquely talented ones like PCs) are sent all over the Known Spheres on special quests and adventures. Often, pay for these assignments is nothing more than the monthly pay-ration and a verbal 'Well done' from the Crusader's immediate superior."
                     ],
                     "data": {
                         "isFeature": true
                     }
                 },
                 {
-                    "name": "Suggested Characteristics",
                     "type": "entries",
+                    "name": "Suggested Characteristics",
                     "entries": [
-                        "Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d8",
-                                "Personality Trait"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "My friends know they can rely on me, no matter what."
-                                ],
-                                [
-                                    "2",
-                                    "I work hard so that I can play hard when the work is done."
-                                ],
-                                [
-                                    "3",
-                                    "I enjoy sailing into new ports and making new friends over a flagon of ale."
-                                ],
-                                [
-                                    "4",
-                                    "I stretch the truth for the sake of a good story."
-                                ],
-                                [
-                                    "5",
-                                    "To me, a tavern brawl is a nice way to get to know a new city."
-                                ],
-                                [
-                                    "6",
-                                    "I never pass up a friendly wager."
-                                ],
-                                [
-                                    "7",
-                                    "My language is as foul as an otyugh nest."
-                                ],
-                                [
-                                    "8",
-                                    "I like a job well done, especially if I can convince someone else to do it."
-                                ]
-                            ]
-                        },
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d6",
-                                "Ideal"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)"
-                                ],
-                                [
-                                    "2",
-                                    "Fairness. We all do the work, so we all share in the rewards. (Lawful)"
-                                ],
-                                [
-                                    "3",
-                                    "Freedom. The sea is freedom\u2014the freedom to go anywhere and do anything. (Chaotic)"
-                                ],
-                                [
-                                    "4",
-                                    "Mastery. I'm a predator, and the other ships on the sea are my prey. (Evil)"
-                                ],
-                                [
-                                    "5",
-                                    "People. I'm committed to my crewmates, not to ideals. (Neutral)"
-                                ],
-                                [
-                                    "6",
-                                    "Aspiration. Someday, I'll own my own ship and chart my own destiny. (Any)"
-                                ]
-                            ]
-                        },
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d6",
-                                "Bond"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "I'm loyal to my captain first, everything else second."
-                                ],
-                                [
-                                    "2",
-                                    "The ship is most important\u2014crewmates and captains come and go."
-                                ],
-                                [
-                                    "3",
-                                    "I'll always remember my first ship."
-                                ],
-                                [
-                                    "4",
-                                    "In a harbor town, I have a paramour whose eyes nearly stole me from the sea."
-                                ],
-                                [
-                                    "5",
-                                    "I was cheated out of my fair share of the profits, and I want to get my due."
-                                ],
-                                [
-                                    "6",
-                                    "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
-                                ]
-                            ]
-                        },
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d6",
-                                "Flaw"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "I follow orders, even if I think they're wrong."
-                                ],
-                                [
-                                    "2",
-                                    "I'll say anything to avoid having to do extra work."
-                                ],
-                                [
-                                    "3",
-                                    "Once someone questions my courage, I never back down no matter how dangerous the situation."
-                                ],
-                                [
-                                    "4",
-                                    "Once I start drinking, it's hard for me to stop."
-                                ],
-                                [
-                                    "5",
-                                    "I can't help but pocket loose coins and other trinkets I come across."
-                                ],
-                                [
-                                    "6",
-                                    "My pride will probably lead to my destruction."
-                                ]
-                            ]
-                        }
+                        "Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a crusader of your order.",
+                        "Your bond almost always involves the order to which you belong (or at least key members of it), and it is highly unusual for a knight's ideal not to reflect the agenda, sentiment, or philosophy of one's order."
                     ]
                 }
             ],
-            "hasFluff": true
-        },
-        {
-            "name": "Variant Sailor2 (Superstar)",
-            "source": "PHB",
-            "page": 139,
-            "_copy": {
-                "name": "Sailor2",
-                "source": "PHB2",
-                "_mod": {
-                    "entries": {
-                        "mode": "replaceArr",
-                        "replace": "Feature: Ship's Passage",
-                        "items": {
-                            "name": "Feature: Tax Collector",
-                            "type": "entries",
-                            "entries": [
-                                "I collect taxes."
-                            ],
-                            "data": {
-                                "isFeature": true
-                            }
-                        }
-                    }
-                }
-            },
             "hasFluff": true
         }
     ]
