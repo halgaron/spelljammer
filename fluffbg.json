@@ -1,4 +1,21 @@
 {
+    "_meta": {
+        "sources": [
+            {
+                "json": "sfhb",
+                "abbreviation": "SFHB",
+                "full": "Spelljammer:Space Farers Handbook",
+                "authors": [
+                    "halragon"
+                ],
+                "version": "1.0.0",
+                "url": "https://raw.githubusercontent.com/halgaron/spelljammer/main/sfhb.json",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
     "backgroundFluff": [
         {
             "name": "Crusader",
