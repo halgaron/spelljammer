@@ -204,6 +204,8 @@
             "hasFluff": true
         },
         {
+            "backgroundFluff": [
+                {
             "name": "Crusader",
             "source": "SFHB",
             "entries": [
@@ -219,6 +221,8 @@
                     ]
                 }
             ]
+        }
+    ]
         },
         {
             "name": "Outlander",
