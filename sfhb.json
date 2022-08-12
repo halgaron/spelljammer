@@ -109,6 +109,25 @@
             "name": "Crusader",
             "source": "SFHB",
             "page": 139,
+            "backgroundFluff": [
+                {
+                    "name": "Crusader",
+                    "source": "SFHB",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "entries": [
+                                        "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
             "skillProficiencies": [
                 {
                     "athletics": true,
@@ -200,6 +219,7 @@
                         "Your bond almost always involves the order to which you belong (or at least key members of it), and it is highly unusual for a knight's ideal not to reflect the agenda, sentiment, or philosophy of one's order."
                     ]
                 }
+                
             ],
             "hasFluff": true
         },
@@ -291,24 +311,5 @@
                 }
             ]
         }
-    ],
-    "backgroundFluff": [
-        {
-            "name": "Crusader",
-            "source": "SFHB",
-            "entries": [
-                {
-                    "type": "entries",
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "entries": [
-                                "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-        ]
+    ]
     }
