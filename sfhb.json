@@ -106,6 +106,9 @@
             "hasFluff": true
         },
     {
+            "name": "Crusader",
+            "source": "SFHB",
+            "page": 136,
             "skillProficiencies": [
                 {
                     "athletics": true,
