@@ -109,6 +109,7 @@
             "name": "Crusader",
             "source": "SFHB",
             "page": 136,
+            "srd": false,
             "skillProficiencies": [
                 {
                     "athletics": true,
@@ -205,7 +206,7 @@
             "hasFluff": true
         },
         {
-            "name": "Outlander",
+            "name": "Frontiersman",
             "source": "PHB",
             "page": 136,
             "skillProficiencies": [
