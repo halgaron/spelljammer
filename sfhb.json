@@ -202,6 +202,111 @@
                 }
             ],
             "hasFluff": true
+        },
+        {
+            "name": "Crusader",
+            "source": "SFHB",
+            "entries": [
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "entries": [
+                                "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Outlander",
+            "source": "PHB",
+            "page": 136,
+            "skillProficiencies": [
+                {
+                    "athletics": true,
+                    "survival": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "navigator's tools",
+                            "cartographer's tools"
+                        ]
+                    }
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        "staff|phb",
+                        "hunting trap|phb",
+                        {
+                            "special": "trophy from an animal you killed"
+                        },
+                        "traveler's clothes|phb",
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1000
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Athletics}, {@skill Survival}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@item Cartographer's tools|phb} or {@item navigator's tools|phb}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "One of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A {@item Map or Scroll Case|phb|wooden case} containing a map to a ruin or dungeon, a {@item bullseye lantern|phb}, a {@item miner's pick|phb}, a set of {@item traveler's clothes|phb}, a {@item shovel|phb}, a {@item two-person tent|phb}, a {@item trinket|phb|trinket} recovered from a dig site, and a {@item pouch|phb} containing 25 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Wanderer",
+                    "type": "entries",
+                    "entries": [
+                        "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "type": "entries",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a crusader of your order.",
+                        "Your bond almost always involves the order to which you belong (or at least key members of it), and it is highly unusual for a knight's ideal not to reflect the agenda, sentiment, or philosophy of one's order."
+                    ]
+                }
+            ]
         }
     ]
 }
