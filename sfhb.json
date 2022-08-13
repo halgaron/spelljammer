@@ -18,7 +18,7 @@
     },
     "background": [
         {
-            "name": "Corsair",
+            "name": "Sphere Agent",
             "source": "SFHB",
             "page": 30,
             "srd": false,
@@ -31,7 +31,7 @@
             "toolProficiencies": [
                 {
                     "navigator's tools": true,
-                    "vehicles (water)": true
+                    "vehicles (space)": true
                 }
             ],
             "startingEquipment": [
@@ -86,9 +86,9 @@
                     "name": "Feature: Right of Passage",
                     "type": "entries",
                     "entries": [
-                        "Corsairs have the right, under letters of marque, to legally stop any ship within their home port's sphere of control. 'Home port' need not be a planet; it could be a fixed base or even a fleet mothership. Within the sphere of control, the Corsair may legally stop vessels, board them, assess customs duties, and seize contraband. This also gives you the right of passage and safe harbor throughout your home port and system with entities that are friendly to your nation.",
-                        "Contraband may be any item that is illegal to import or export, or an item for which the proper taxes have not been paid. In addition, at the DM's discretion, there may be certain enemy nations whose ships are always confiscated (such as the neogi). Of course, not every ship is going to peacefully await boarding. A neogi deathspider is unlikely to quietly acquiesce to such an action; if the neogi do allow boarding, a Corsair captain can be assured of an ambush. The only real meaning of this power is that law-abiding ships will comply, and any hostile action taken against other ships will probably be supported by the Corsair's commanders back home. Corsairs keep 10% of the contraband cargo seized and taxes collected to pay expenses and reward the crew. Some Corsairs withhold more than 10%, risking discovery and prosecution. ",
-                        "In exchange for the above privileges, The Corsair must return to his home port regularly (at least every six months) to report on his activities, and of course must give 90% of the value of cargoes and ships he seizes to his command at that base. In addition, the home base may choose to send the Corsair on missions that he must undertake. The cost of mounting the mission (including paying her crew) is borne by the Corsair, although as with all of her other activities he may keep 10% of what he finds. Finally, Corsairs are obligated to defend the home base. This can be a great disadvantage when the neogi show up and the Corsair would much prefer to head for safer climes. "
+                        "Sphere Agents have the right, under letters of marque, to legally stop any ship within their home port's sphere of control. 'Home port' need not be a planet; it could be a fixed base or even a fleet mothership. Within the sphere of control, the Sphere Agents may legally stop vessels, board them, assess customs duties, and seize contraband. This also gives you the right of passage and safe harbor throughout your home port and system with entities that are friendly to your nation. Agents who follow the rules are typically more respected and are coined as 'Corsairs'.",
+                        "Contraband may be any item that is illegal to import or export, or an item for which the proper taxes have not been paid. In addition, at the DM's discretion, there may be certain enemy nations whose ships are always confiscated (such as the neogi). Of course, not every ship is going to peacefully await boarding. A neogi deathspider is unlikely to quietly acquiesce to such an action; if the neogi do allow boarding, a Sphere Agents captain can be assured of an ambush. The only real meaning of this power is that law-abiding ships will comply, and any hostile action taken against other ships will probably be supported by the Sphere Agents's commanders back home. Sphere Agents keep 10% of the contraband cargo seized and taxes collected to pay expenses and reward the crew. Sphere Agents who abuse their titles are considered privateers. Typically these privateers withhold more than 10%, risking discovery and prosecution.",
+                        "In exchange for the above privileges, The Sphere Agents must return to his home port regularly (at least every six months) to report on his activities, and of course must give 90% of the value of cargoes and ships he seizes to his command at that base. In addition, the home base may choose to send the Sphere Agents on missions that he must undertake. The cost of mounting the mission (including paying her crew) is borne by the Sphere Agents, although as with all of her other activities he may keep 10% of what he finds. Finally, Sphere Agents are obligated to defend the home base. This can be a great disadvantage when the neogi show up and the Sphere Agents would much prefer to head for safer climes. "
                     ],
                     "data": {
                         "isFeature": true
@@ -98,15 +98,15 @@
                     "type": "entries",
                     "name": "Suggested Characteristics",
                     "entries": [
-                        "Use the tables for the {@background sailor} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as Corsair .",
-                        "Your bond almost always involves the sphere/planet/port that you chose, and it is highly unusual for a corsair's ideal not to reflect the agenda of the chosen port."
+                        "Use the tables for the {@background sailor} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as Sphere Agents .",
+                        "Your bond almost always involves the sphere/planet/port that you chose, and it is highly unusual for a Sphere Agents's ideal not to reflect the agenda of the chosen port."
                     ]
                 }
             ],
             "hasFluff": true
         },
     {
-            "name": "Crusader",
+            "name": "Space Crusader",
             "source": "SFHB",
             "page": 136,
             "srd": false,
@@ -216,7 +216,7 @@
             "hasFluff": true
         },
         {
-            "name": "Frontiersman",
+            "name": "Stellar Frontiersman",
             "source": "SFHB",
             "page": 136,
             "srd": false,
@@ -312,7 +312,7 @@
             "hasFluff": true
         },
         {
-            "name": "Marine",
+            "name": "Space Marine",
             "source": "SFHB",
             "page": 31,
             "skillProficiencies": [
@@ -735,7 +735,7 @@
             "hasFluff": true
         },
         {
-            "name": "Astral Sage",
+            "name": "Astral Sea Astronomer",
             "source": "SFHB",
             "page": 146,
             "skillProficiencies": [
@@ -744,14 +744,10 @@
                     "history": true
                 }
             ],
-            "languageProficiencies": [
-                {
-                    "anyStandard": 1
-                }
-            ],
             "toolProficiencies": [
                 {
-                    "cartographer's tools": true
+                    "cartographer's tools": true,
+                    "navigator's tools": true
                 }
             ],
             "startingEquipment": [
@@ -792,18 +788,23 @@
                     "items": [
                         {
                             "type": "item",
-                            "name": "Description (Astronomer):",
-                            "entry": "The Astronomer is a student of the Known Spheres. They study the spheres, the stars, the phlogiston, and the worlds of space, seeking the underlying key to the mystery of creation. In their travels, the Astronomer gains many insights into the workings of the spheres. They may be a driven seeker of hidden wisdom or a spaceborne tourist, sampling the pleasures of every world they visits. The Astronomer is a source of information. His studies and travels give his insight into the nature of the planets and the crystal spheres, and his breadth of experience makes him a valued travel companion. Like any scholar, however, the Astronomer is sometimes perceived as an ineffectual bystander. This is by no means universally true."
+                            "name": "Description (Astral Sea Astronomer):",
+                            "entry": "The Astral Sea Astronomer is a student of the Known Spheres. They study the spheres, the stars, the phlogiston, and the worlds of space, seeking the underlying key to the mystery of creation. In their travels, the Astronomer gains many insights into the workings of the spheres. They may be a driven seeker of hidden wisdom or a spaceborne tourist, sampling the pleasures of every world they visits. The Astronomer is a source of information. His studies and travels give his insight into the nature of the planets and the crystal spheres, and his breadth of experience makes him a valued travel companion and are ideal navigators on a spelljammer vessel. Like any scholar, however, the Astronomer is sometimes perceived as an ineffectual bystander. This is by no means universally true."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Description (Astral Sea Astrologer):",
+                            "entry": "The Astrologer is a different counterpart to the Astronomer in approach to the stars Instead of pursuing deep magical or factual truths in his explorations, the Astrologer seeks the hand of the gods in the structure of the universe. “To the Astrologer, the crystal spheres, the planets, and the stars all speak of the power of the gods. Even the great starbeasts demonstrate that the power of the true gods is beyond human comprehension. The Astrologer studies the movements of the spheres to determine the will of the gods. Thus, their strength lies in his knowledge of Known Space and his understanding of the principles upon which the universe itself is built."
                         },
                         {
                             "type": "item",
                             "name": "Skill Proficiencies",
-                            "entry": "{@skill History}, plus {@skill Arcana}."
+                            "entry": " {@skill Arcana} plus your choice of {@skill History} (Astronomer) or {@skill Religion} (Astrologer)."
                         },
                         {
                             "type": "item",
                             "name": "Tool Proficiencies",
-                            "entry": "{@item Cartographer's tools|phb}"
+                            "entry": "{@item Cartographer's tools|phb},{@item Navigator's tools|phb}"
                         },
                         {
                             "type": "item",
@@ -818,11 +819,10 @@
                     ]
                 },
                 {
-                    "name": "Feature: Star Fetched",
+                    "name": "Feature: Astral Intellect",
                     "type": "entries",
                     "entries": [
-                        "You gain the {@feat Keen Mind} feat from the player's handbook. Though others must often endure extensive interviews and significant fees to gain access to even the most common archives in your library, you have free and easy access to the majority of the library, though it might also have repositories of lore that are too valuable, magical, or secret to permit anyone immediate access.",
-                        "You have a working knowledge of your cloister's personnel and bureaucracy, and you know how to navigate those connections with some ease.",
+                        "You gain the {@feat Skilled} feat from the player's handbook. In addition, While in known space or spheres, you can determine exactly where you are without a map.",
                         "Astronomers are fascinated with space, but they tend to be disdainful of groundlings. This disdain is difficult to hide, and groundlings usually react unfaorably around astronomers."
                     ],
                     "data": {
@@ -830,10 +830,23 @@
                     }
                 },
                 {
+                    "name": "Feature: Reader of the Stars",
+                    "type": "entries",
+                    "entries": [
+                        "As you observe the stars the work of various dieties, you are able to determine patterns in the stars to benefit yourself. As a result, you gain the {@feat Lucky} from the players handbook. However, you are able to use your luck points on allies within 30 feet as well, but not more than 1/turn.",
+                        "While in known space or spheres, you can determine exactly where you are without a map.",
+                        "Astrologers see the hands of the dieties in all of the features of the universe. They spend much of their time in contemplation, considering the true meaning behind the wondrous sights of space. As a result, this can give them negative reactions when dealing with nonmagical warrior based societies or those who do not believe in deties."
+                    ],
+                    "data": {
+                        "isFeature": true,
+                        "isAlternateFeature": true
+                    }
+                },
+                {
                     "type": "entries",
                     "name": "Suggested Characteristics",
                     "entries": [
-                        "Use the tables for the {@background sage} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a cloistered scholar.",
+                        "Use the tables for the {@background sage} or the {@backrgound Acolyte} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a Astrologer or Astronomer.",
                         "Your bond is almost certainly associated either with the place where you grew up or with the knowledge you hope to acquire through adventuring. Your ideal is no doubt related to how you view the quest for knowledge and truth - perhaps as a worthy goal in itself, or maybe as a means to a desirable end."
                     ]
                 }
@@ -1223,6 +1236,11 @@
                     "items": [
                         {
                             "type": "item",
+                            "name": "Description:",
+                            "entry": "The Illusory Imposter is an illusionist who passes himself off as different people. Imposters maintain a series of aliases, and few who deal with Imposters know which of their many personas is the true self. In spaceborne campaigns, Imposters are in their element. They are fond of political intrigues and can often be found allied with all of the sides in a political battle (in various personas, of course). When the in-* trigues shift to open warfare, however, the Imposter is nowhere to be found. “The Imposter is the wizardly con-man of space. Imposters depend on their magical ability and personal charisma to beguile those around them."
+                        },
+                        {
+                            "type": "item",
                             "name": "Skill Proficiencies",
                             "entry": "{@skill Deception}, and your choice of either {@skill Insight} , {@skill History} {@skill Persuasion} {@skill Sleight of Hand}"
                         },
@@ -1258,7 +1276,921 @@
                 }
             ],
             "hasFluff": true
+        },
+        {
+            "name": "Spelljamming Warmage",
+            "source": "SFHB",
+            "page": 145,
+            "skillProficiencies": [
+                {
+                    "arcana": true,
+                    "perception": true
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "navigator's tools": true,
+                    "vehicles (space)": true
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        {
+                            "special": "uniform in the style of your unit and indicative of your rank"
+                        },
+                        {
+                            "item": "horn|phb",
+                            "displayName": "horn with which to summon help or give orders"
+                        },
+                        {
+                            "item": "manacles|phb",
+                            "displayName": "set of manacles"
+                        },
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1000
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "For all its emptiness, space is as much a place of war as the surface of any inhabited world. Every spelljamming vessel must be prepared to defend itself against the natural hazards and intelligent enemies that infest the spaces between the stars. In every sphere, there are those who have dedicated their lives to the art of battle. None are more feared than the War Mages. A War Mage is a wizard who has dedicated himself to learning the tactics and techniques of spelljamming ship-to-ship combat. War Mages serve two roles on the ships they serve: as expert helmsman and as magical artillery. The War Mage is employed by military ships as an expert on battle. War Mages are familiar with the tactics of ship to-ship combat and are often combat officers on the ships where they travel."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Arcana}, {@skill Perception}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@item Navigator's tools|phb}, {@filter vehicles (space)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (space)}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A {@item dagger|phb} that belonged to a fallen comrade, an insignia of rank (if you are or were part of a military organization), a folded flag emblazoned with the symbol of your ship or company, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 10 gp."
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Battletested Pilot",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat War Caster} from the players handbook. You also gain advantage on ability checks when utilizing a spelljammer helm. In addition you gain the Ship's Passage or Bad Reputation feature from the {@background Sailor} from the players handbook.",
+                        "War Mages are seen by many other spellcasters as ferrymen who have sold out their magical talent for the glories of war. As a result, other spellcasters tend to look unfavorably in interactions with you."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "type": "entries",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background sailor} background in the Player's Handbook or the {@background marine} from  as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of either a military organization, pirate or merchant ship.",
+                        "Your bond is likely associated with your fellow ship members or the organization you are or were a part of."
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Galatic Diplomat",
+            "source": "",
+            "page": 154,
+            "skillProficiencies": [
+                {
+                    "history": true,
+                    "persuasion": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "gaming set",
+                            "musical instrument"
+                        ]
+                    }
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        "fine clothes|phb",
+                        {
+                            "special": "scroll of pedigree"
+                        },
+                        {
+                            "special": "skin of fine spirits or wine"
+                        },
+                        {
+                            "special": "purse",
+                            "containsValue": 2000
+                        }
+                    ]
+                },
+                {
+                    "a": [
+                        "signet ring|phb"
+                    ],
+                    "b": [
+                        {
+                            "special": "brooch"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "“The Galactic Diplomat is the negotiator between the diverse societies of the Known Spheres, the grease that smoothes trade and alliances between the independent governments within and among the crystal spheres. Diplomats accomplish their role through negotiation and compromise. They strive to focus on the common ground between two societies rather than the inevitable differences. They do not approach their task as one of domination, but rather of constructive accomplishment. “he Diplomat is the intermediary between a powerful entity—the lord of a sphere, the leader of a powerful organization, or merely a petty lordling— and those with whom the entity must deal. Some Diplomats act as the voice of their sponsors in negotiating agreements with neighbors and other powerful factions, allowing the ruling entity to focus its attention on broader policy matters. Others are neutral third parties who intervene to ensure harmonious relations between two groups without owing loyalty to either."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill History}, {@skill Persuasion}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "Any one of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "One type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A set of {@item fine clothes|phb}, a {@item signet ring|phb} or brooch, a scroll of pedigree, a skin of fine spirits or wine, and a purse containing 20 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Kept in Style",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Linguist} feat from the players handbook. The most important benefit any Diplomat has is her position as a representative of either one of the disputants or an impartial mediating force. Diplomats are universally accorded immunity from prosecution for crimes while in foreign lands, and are under the personal protection of the ruler of their posting. Diplomats are also permitted access to the highest levels of government. Even a low functionary in an embassy has the ear of those in the hosting government at a similar level. Diplomats therefore receive favorable treatment from all government functionaries in the sphere or empire where they are posted. Diplomats are also skilled at persuasion, particularly to a moderate position.",
+                        "However, Diplomats are believed to have a private agenda, and have a reputation for equivocation if not outright lying. This reputation gives memmbers of the general populace reason to view the diplomats poorly in their interactions with them."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "type": "section",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background noble} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a member of an organization, empire, country, or other important entity.",
+                        "Most diplomats come from nobility, while others were born and raised in a different world from the one that most folk know - one that grants you privilege but also calls you to fulfill a duty befitting your station. Your bond might be associated with your family alone, or it could be concerned with another noble house that sides with or opposes your own. Your ideal depends to some extent on how you view your role in the family or organization, and how you intend to conduct yourself in the world at large as a representative of your house or your chosen entity."
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Planar Evangelist",
+            "source": "SFHB",
+            "page": 127,
+            "srd": true,
+            "skillProficiencies": [
+                {
+                    "religion": true,
+                    "choose": {
+                        "from": [
+                            "persuasion",
+                            "performance"
+                        ]
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "musical instrument"
+                        ]
+                    }
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        {
+                            "item": "holy symbol|phb",
+                            "displayName": "holy symbol (a gift to you when you entered the priesthood)"
+                        },
+                        {
+                            "special": "sticks of incense",
+                            "quantity": 5
+                        },
+                        {
+                            "special": "vestments"
+                        },
+                        "common clothes|phb",
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1500
+                        }
+                    ]
+                },
+                {
+                    "a": [
+                        {
+                            "item": "book|phb",
+                            "displayName": "prayer book"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "special": "prayer wheel"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description (Evangelist):",
+                            "entry": "“The Evangelist seeks to convert peopie to his religion. He travels the spaceways seeking unbelievers and explaining the tenets of his religion to them in hopes of gaining followers for his god. Evangelists are generally unconcerned with the nonspiritual side of the people they convert. While they will occasionally help a brother believer out of a sense of community, they do not see their role as bettering the life of their fellow man (or demihuman). The Evangelist is the recruiting arm of the faith. It is his role to keep the faith growing by introducing more and more people to its tenets and convincing them of their innate correctness. Some Evangelists are pardoners, offering salvation and freedom from sin in return for financial reward. Others are sincere believers who seek “nothing more than the spiritual solace of the true religion (their own)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Description (Evangelist):",
+                            "entry": "The Missionary travels the stars seeking beings less fortunate. When these creatures are found finds them, the Missionary dedicates himself to their salvation and civilization through his teaching and through patient explanation of the benefits of his religion. Although the Missionary and the Evangelist seem similar at first glance, they take quite different approaches to collecting souls for their respective religions. While the Evangelist seeks to convert through persuasion and charisma, the Missionary improves the lives of the heathen as an inducement to get them to join his religion. While the Evangelist may produce more spectacular and sudden results, the Missionary is more tenacious in the long run, and more likely to transform the societies he visits, than the orator-Evangelist."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Religion} and one of the following: {@skill Persuasion} or {@skill Performance}."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "One of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "a {one type of {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A {@item holy symbol|phb} (a gift to you when you entered the priesthood), a prayer {@item book|phb} or prayer wheel, 5 sticks of incense, vestments, a {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Faithful Inspirator",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Inspiring Leader} feat from the players handbook. As a Evangelist, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
+                        "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "name": "Feature: Missionary's Flock",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Skilled} feat from the players handbook. As a benefit of your enahnced skills and willingness to integrate with non-believer societies, You have the service of three converts or churchmen(women) that are loyal to your church/religion. These followers can be attendants or messengers, and one might be a majordomo. {@b One of your followers is someone who serves as your apprentice, aiding you in exchange for training on his or her own path to becoming a priest} (This person could be your bond.). Your two remaining followers can have varied responsabilities as you choose. ",
+                        "Your attendants can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused. You are able to replace your followers by pproselytizing throughout the cosmos, or having new ones assigned to your by the church. Note: This feature is a variant of the Noble Knight's Retainers feature."
+                    ],
+                    "data": {
+                        "isFeature": true,
+                        "isAlternateFeature": true
+                    }
+                },
+                {
+                    "type": "entries",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background acolyte} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a Evangelist",
+                        "Your bond might be associated with other members of your faith, or a location or an object that is important to your religion. The ideal you strive for is probably in keeping with the tenets and principles of your religion, but might be more personal in nature."
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Wayward Medicus",
+            "source": "PHB",
+            "page": 134,
+            "skillProficiencies": [
+                {
+                    "medicine": true,
+                    "religion": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "herbalism kit": true
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        {
+                            "item": "map or scroll case|phb",
+                            "displayName": "scroll case stuffed full of notes from your studies or prayers"
+                        },
+                        {
+                            "item": "blanket|phb",
+                            "displayName": "winter blanket"
+                        },
+                        "common clothes|phb",
+                        "herbalism kit|phb",
+                        {
+                            "value": 500
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "“A Wayward Medicus is a priest who specializes in both magical and nonmagical healing. Such specialists are in great demand across the Known Spheres, as magical healing is often hard to come by in the empty regions between the worlds. The Medi-cus's knowledge of medicine allows him to ply his skills with all the races of space, and the nonmagical component of this skills allows the Medicus to treat injuries and wounds on long trips through the phlogiston, where magical healing is unrenewable. The Medicus feels a commitment to the sanctity of life and the avoidance of suffering. This commitment applies even to enemies. While a Medicus will not prevent his comrades from defending themselves or attacking a heinous foe, and may even participate in the battle, he will want to treat all of the survivors regardless of what side they fought on. In the absence of large temples and the complete stocks of herbs that can be found on planetary surfaces, the Medicus is the mainstay of injury repair in the Known Spheres. Any large vessel, especially those that ferry passengers across the Void, carries its own Medicus."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Medicine}, {@skill Religion}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@item Herbalism kit|phb}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "One of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A {@item Map or Scroll Case|phb|scroll case} stuffed full of notes from your studies or prayers, a winter {@item blanket|phb}, a set of {@item common clothes|phb}, an {@item herbalism kit|phb}, and 5 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Adept Healer",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Healer} feat from the players handbook. First and foremost, a Medicus cannot refuse treatment to anyone. Refusing treatment, regardless of reason, is considered to be against the code of ethics.",
+                        "A Medicus's compassion is well known among the spheres. Any wounded opponent who recognizes the player as a Medicus may be more willing to surrender because he is sure his wounds will be treated.",
+                        "As the traveling medics of the universe, Medicus's are well-recieved throughout the cosmos, gaining room and board and a modest lifesytle at major ports and settlements as long as they perform medical treatments for the community."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background acolyte} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a Evangelist",
+                        "Your bond might be associated with other members of your faith, or a location or an object that is important to your religion. The ideal you strive for is probably in keeping with the tenets and principles of your religion, but might be more personal in nature."
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Aperusa",
+            "source": "SFHB",
+            "page": 148,
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "insight",
+                            "performance",
+                            "medicine",
+                            "acrobatics",
+                            "nature",
+                            "perception",
+                            "sleight of hand",
+                            "animal handling"
+                        ]
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "vehicles (space)": true,
+                    "choose": {
+                        "from": [
+                            "musical instrument",
+                            "gaming set",
+                            "disguise kit",
+                            "thieves tools",
+                            "navigator's tools",
+                            "herbalism kit"
+                        ]
+                    }
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        "traveler's clothes|phb",
+                        {
+                            "special": "poorly wrought maps from your homeland that depict where you are in Space"
+                        },
+                        {
+                            "special": "small piece of jewelry in the style of your homeland's craftsmanship",
+                            "worthValue": 1000
+                        },
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 500
+                        }
+                    ]
+                },
+                {
+                    "a": [
+                        {
+                            "equipmentType": "instrumentMusical"
+                        }
+                    ],
+                    "b": [
+                        {
+                            "equipmentType": "setGaming"
+                        }
+                    ],
+                    "c": [
+                        {
+                            "equipmentType": "disguisekit"
+                        }
+                    ],
+                    "d": [
+                        {
+                            "equipmentType": "thievestools"
+                        }
+                    ],
+                    "e": [
+                        {
+                            "equipmentType": "navigatorstools"
+                        }
+                    ],
+                    "f": [
+                        {
+                            "equipmentType": "herbalismkit"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "The Aperusa are a clan of space wanderers who travel from system to system making a living off the gullible and the unwary. Most of their thievery takes the form of con games or minor pick-pocketing. They are the gypsies of the Known Spheres and forever search for new opportunities. Generally, Aperusa travel with their clan in large ramshackle ships. Occasionally, a member of the clan will strike out on his own, seeking adventure and fun. On these voyages, the Aperusa will hook up with adventurers or anyone else who can take him to the next system for the next scam. No one quite knows whether these individuals are clan exiles or spies sent out by the clan leaders. The Aperusa are not telling. The Aperusa are space gypsies. They are not truly a separate species from humanity (as any number of jilted lovers on a hundred worlds will tell you), but rather a close-knit family group with their own special perspective on life. Aperusa are lovers, not fighters. While they are allowed to use weapons, most will defer, instead offering 'once in a lifetime' deals on healing potions and protective charms to their defenders."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "Any two from the following: {@skill Insight}, {@skill Performance}, {@skill Acrobatics},  {@skill Perception},  {@skill Medicine}, {@skill Nature} {@skill Animal Handling}, {@skill Slieght of Hand}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@filter vehicles (space)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (space)} and one of your choice from the following; Any one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} of your choice, likely something native to your homeland. {@item navigators' tools|phb} {@item thieves' tools|phb}, {@item disguise kit|phb} {@item herbalism kit|phb}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "Any one of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "One set of {@item traveler's clothes|phb}, any one of the following: {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} or {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set} you are proficient with {@item navigators' tools|phb}, {@item thieves' tools|phb}, {@item disguise kit|phb} {@item herbalism kit|phb}. Poorly wrought maps from your homeland that depict where you are in a sphere, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a {@item pouch|phb} containing 5 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Space Gypsy",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Feytouched} feat from tasha's cauldron of everything. Your accent, mannerisms, figures of speech, and perhaps even your appearance all mark you as foreign. Curious glances are directed your way wherever you go, which can be a nuisance, but you also gain the friendly interest of scholars and others intrigued by far-off lands, to say nothing of everyday folk who are eager to hear stories of your homeland and travels.",
+                        "You can parley this attention into access to people and places you might not otherwise have, for you and your traveling companions. Noble lords, scholars, and merchant princes, to name a few, might be interested in hearing about your distant homeland and people."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "name": "Why Are You Here?",
+                    "type": "entries",
+                    "entries": [
+                        "A Aperusa might have set out on a journey for one of a number of reasons, and the departure from his or her homeland could have been voluntary or involuntary. To determine why you are so far from home, roll on the table below or choose from the options provided. The following section, discussing possible homelands, includes some suggested reasons that are appropriate for each location.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Reason"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Emissary"
+                                ],
+                                [
+                                    "2",
+                                    "Exile"
+                                ],
+                                [
+                                    "3",
+                                    "Fugitive"
+                                ],
+                                [
+                                    "4",
+                                    "Pilgrim"
+                                ],
+                                [
+                                    "5",
+                                    "Sightseer"
+                                ],
+                                [
+                                    "6",
+                                    "Wanderer"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Suggested Characteristics",
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Personality Trait"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "I have different assumptions from those around me concerning personal space, blithely invading others' space in innocence, or reacting to ignorant invasion of my own."
+                                ],
+                                [
+                                    "2",
+                                    "I have my own ideas about what is and is not food, and I find the eating habits of those around me fascinating, confusing, or revolting."
+                                ],
+                                [
+                                    "3",
+                                    "I have a strong code of honor or sense of propriety that others don't comprehend."
+                                ],
+                                [
+                                    "4",
+                                    "I express affection or contempt in ways that are unfamiliar to others."
+                                ],
+                                [
+                                    "5",
+                                    "I honor my deities through practices that are foreign to this land."
+                                ],
+                                [
+                                    "6",
+                                    "I begin or end my day with small traditional rituals that are unfamiliar to those around me."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Ideal"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Open. I have much to learn from the kindly folk I meet along my way. (Good)"
+                                ],
+                                [
+                                    "2",
+                                    "Reserved. As someone new to these strange lands, I am cautious and respectful in my dealings. (Lawful)"
+                                ],
+                                [
+                                    "3",
+                                    "Adventure. I'm far from home, and everything is strange and wonderful! (Chaotic)"
+                                ],
+                                [
+                                    "4",
+                                    "Cunning. Though I may not know their ways, neither do they know mine, which can be to my advantage. (Evil)"
+                                ],
+                                [
+                                    "5",
+                                    "Inquisitive. Everything is new, but I have a thirst to learn. (Neutral)"
+                                ],
+                                [
+                                    "6",
+                                    "Suspicious. I must be careful, for I have no way of telling friend from foe here. (Any)"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Bond"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "So long as I have this token from my homeland, I can face any adversity in this strange land."
+                                ],
+                                [
+                                    "2",
+                                    "The gods of my people are a comfort to me so far away from home."
+                                ],
+                                [
+                                    "3",
+                                    "I hold no greater cause than my service to my people."
+                                ],
+                                [
+                                    "4",
+                                    "My freedom is my most precious possession. I'll never let anyone take it from me again."
+                                ],
+                                [
+                                    "5",
+                                    "I'm fascinated by the beauty and wonder of this new land."
+                                ],
+                                [
+                                    "6",
+                                    "Though I had no choice, I lament having to leave my loved one(s) behind. I hope to see them again one day."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Flaw"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "I am secretly (or not so secretly) convinced of the superiority of my own culture over that of this foreign land."
+                                ],
+                                [
+                                    "2",
+                                    "I pretend not to understand the local language in order to avoid interactions I would rather not have."
+                                ],
+                                [
+                                    "3",
+                                    "I have a weakness for the new intoxicants and other pleasures of this land."
+                                ],
+                                [
+                                    "4",
+                                    "I don't take kindly to some of the actions and motivations of the people of this land, because these folks are different from me."
+                                ],
+                                [
+                                    "5",
+                                    "I consider the adherents of other gods to be deluded innocents at best, or ignorant fools at worst."
+                                ],
+                                [
+                                    "6",
+                                    "I have a weakness for the exotic beauty of the people of these lands."
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Space Courier",
+            "source": "SFHB",
+            "page": 146,
+            "skillProficiencies": [
+                {
+                    "insight": true,
+                    "persuasion": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 2
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        "fine clothes|phb",
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 500
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "“The Space Courier is the messenger of space, carrying verbal messages from sphere to sphere. His clients can trust him to be reliable and discrete, and he in turn enjoys their support in his travels through the Known Spheres. “The Courier, like the Merchant warrior, supports the society of the Known Spheres by enabling communication between the spheres. Also, as a single Courier may carry many messages, sending a message by Courier is much less expensive than delivering it yourself. Any rogue may be a Courier, but bards are by far the most common in this profession. Many thief Couriers pass themselves off as bards or warriors; few people would trust a known thief to deliver a message."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Insight}, {@skill Persuasion}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "Any two of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A set of {@item fine clothes|phb} and a {@item pouch|phb} containing 5 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Way with Words",
+                    "type": "entries",
+                    "entries": [
+                        "You have a well-developed memory in which you may carry many messages. This memory allows the Courier to repeat verbatim anything he has heard, if he or she knows the language spoken at the time. If he(she) does not know the language, he(she) can attempt to reproduce the sounds he(she) heard. As a result of these skills you gain the {@feat Keen Mind} feat from the players handbook.",
+                        "In addition, your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are.",
+                        "The Courier may also receive gratuities from message recipients for successfully delivering welcome news, but he should be prepared to defend himself against the displaced anger of the recipient should the news be bad.",
+                        "Couriers become intimately involved in the businesses of their clients. Often, they have access to the contents of otherwise unobtainable missives. This makes them valuable to the enemies of their clients. Occasionally, Couriers will carry messages that certain parties do not want delivered which can place them in dangerous situations without provocation."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "type": "entries",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background guild artisan} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a Courier.",
+                        "You may belong to a noble's court or bureaucratic organization where you got your start is directly or indirectly associated with your bond (which could pertain to certain individuals in the group, such as your sponsor or mentor). Your ideal might be concerned with the prevailing philosophy of your court or organization."
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Wreck Salvager",
+            "source": "SFHB",
+            "page": 153,
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "deception",
+                            "insight",
+                            "persuasion",
+                            "stealth"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "gaming set",
+                            "musical instrument",
+                            "thieves' tools"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 2000
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "The Salvager is the scavenger of the spacelanes, looting spelljamming helms and other valuables from disabled ships. Salvagers are not noble rescuers or even work-a-day emergency assistance; they live by the law of 'finders keepers'. The Salvager searches crystal spheres, particularly those that have been the site of a space battle or are plagued with pirates or hazardous space creatures, looking for ships that can no longer navigate under their own power. The Salvager then grapples with the derelict ship and recovers any valuables left aboard. Ideally, derelict ships are also unoccupied. A Salvager who comes across a derelict with living crew (which can easily happen in the preserving bath of the phlogiston) may return the survivors to a nearby spaceport. Their valuables, however, are never seen again. “Some few Salvagers lack the patience to wait for a vessel to become a derelict. These have no scruples against helping the process along by doubling as pirates. Most of these are not so solicitous of the survivors of their attacks."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "Choose two from among {@skill Deception}, {@skill Insight}, {@skill Persuasion}, and {@skill Stealth}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "Choose two from among the following: One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, one type of {@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}, one {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}, {@item thieves' tools|phb}, {@item Forgery kit|phb} "
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "a set of {@item traveler's clothes|phb}, a {@item merchant’s scale|phb}, a {@item hammer|phb} or {@item crowbar|phb}, a toolkit or gaming set from your chosen proficency (see above) and a {@item pouch|phb} containing 20 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Scrap Hunter",
+                    "type": "entries",
+                    "entries": [
+                        "Being a scrapper involves wearing many hats, as such you gain the {@feat Skilled} feat from the players handbook.",
+                        "You are in frequent contact with people that are familiar with scrap sites as they float around in the astral sea. These people might be associated with the criminal underworld, the rough-and-tumble folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people and places of the local area in addition to new potencial scrap sites, all for a finder's fee of course. These contacts may also be willing to buy or sell scrap from you or point you to potencial clients who will do the same.",
+                        "While salvaging is quite profitable, most spacefarers view Salvagers as sharks. Thus, Salvagers may suffer negative reactions when dealing with those who own or crew ships."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "type": "entries",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background criminal} background in the Player's Handbook as the basis for your salvager's traits and motivations, modifying the entries when appropriate to suit your identity as a salvager.",
+                        "For instance, your bond might involve other salvagers or the organizations or individuals that employ you. Your ideal could be associated with your determination always to find new scrap sites or your desire to maintain your reputation for being dependable."
+                    ]
+                }
+            ],
+            "hasFluff": true
         }
-            ]
-        }
+    ]
+}
 
