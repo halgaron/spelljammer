@@ -1,0 +1,132 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "sfhb",
+                "abbreviation": "SFHB",
+                "full": "Spelljammer:Space Farers Handbook",
+                "authors": [
+                    "halragon"
+                ],
+                "version": "1.0.0",
+                "url": "https://raw.githubusercontent.com/halgaron/spelljammer/main/sfhb.json",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "background": [
+        {
+            "name": "Astral Sea Astronomer",
+            "source": "SFHB",
+            "page": 146,
+            "skillProficiencies": [
+                {
+                    "arcana": true,
+                    "choose": {
+                        "from": [
+                            "history",
+                            "religion"
+                        ]
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "cartographer's tools": true,
+                    "navigator's tools": true
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        {
+                            "item": "robes|phb",
+                            "displayName": "scholar's robes"
+                        },
+                        "pouch|phb",
+                        {
+                            "special": "quill"
+                        },
+                        {
+                            "special": "ink"
+                        },
+                        {
+                            "special": "folded parchment"
+                        },
+                        {
+                            "special": "small penknife"
+                        },
+                        {
+                            "item": "book|phb",
+                            "displayName": "borrowed book on the subject of your current study, such as a planet, moon, system or specific location."
+                        },
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1000
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description (Astral Sea Astronomer):",
+                            "entry": "The Astral Sea Astronomer is a student of the Known Spheres. They study the spheres, the stars, the phlogiston, and the worlds of space, seeking the underlying key to the mystery of creation. In their travels, the Astronomer gains many insights into the workings of the spheres. They may be a driven seeker of hidden wisdom or a spaceborne tourist, sampling the pleasures of every world they visits. The Astronomer is a source of information. His studies and travels give his insight into the nature of the planets and the crystal spheres, and his breadth of experience makes him a valued travel companion and are ideal navigators on a spelljammer vessel. Like any scholar, however, the Astronomer is sometimes perceived as an ineffectual bystander. This is by no means universally true."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Description (Astral Sea Astrologer):",
+                            "entry": "The Astrologer is a different counterpart to the Astronomer in approach to the stars Instead of pursuing deep magical or factual truths in his explorations, the Astrologer seeks the hand of the gods in the structure of the universe. “To the Astrologer, the crystal spheres, the planets, and the stars all speak of the power of the gods. Even the great starbeasts demonstrate that the power of the true gods is beyond human comprehension. The Astrologer studies the movements of the spheres to determine the will of the gods. Thus, their strength lies in his knowledge of Known Space and his understanding of the principles upon which the universe itself is built."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": " {@skill Arcana} plus your choice of {@skill History} (Astronomer) or {@skill Religion} (Astrologer)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@item Cartographer's tools|phb},{@item Navigator's tools|phb}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "any one of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "Scholar's {@item robes|phb}, {@item cartogapher's tools|phb} a writing kit (small {@item pouch|phb} with a quill, ink, folded parchment, and a small penknife), a borrowed {@item book|phb} on the subject of your current study, and a {@item pouch|phb} containing 10 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Astral Intellect",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Skilled} feat from the player's handbook. In addition, While in known space or spheres, you can determine exactly where you are without a map.",
+                        "Astronomers are fascinated with space, but they tend to be disdainful of groundlings. This disdain is difficult to hide, and groundlings usually react unfaorably around astronomers."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "type": "entries",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background sage} or the {@background Acolyte} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a Astrologer or Astronomer.",
+                        "Your bond is almost certainly associated either with the place where you grew up or with the knowledge you hope to acquire through adventuring. Your ideal is no doubt related to how you view the quest for knowledge and truth - perhaps as a worthy goal in itself, or maybe as a means to a desirable end."
+                    ]
+                }
+            ],
+            "hasFluff": true
+        }
+    ]
+}

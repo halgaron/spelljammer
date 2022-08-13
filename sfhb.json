@@ -374,7 +374,7 @@
                 },
                 {
                     "type": "entries",
-                    "name": "Feature: Steady",
+                    "name": "Feature: Battle Hardened",
                     "entries": [
                         "You gain the {@feat Fighting Initiate} from Tasha’s Cauldron of everything.  In return, you have access to any military buildings of your unit and a direct line of communication with officers and other soldiers. You can also pass through your chosen patrol zone without question—although you can't bring guests into anythe restricted areas. Additionally, you're always welcome at the establishments such as taverns, inns for which you are responsible for, as most folk are glad to greet you with a smile and a mug of ale."
                     ],
@@ -472,7 +472,7 @@
                     }
                 },
                 {
-                    "name": "Feature: Merchant House",
+                    "name": "Optional Feature: Merchant House",
                     "type": "entries",
                     "entries": [
                         "You gain the {@feat Skilled} from the players handbook. In addition, your merchant organization has assigned you the services of a loyal retainer from the business, a factor, husbanding agent, seafarer,spacefarer, caravan guard, or clerk. This individual is a commoner who can perform mundane tasks for you such as making purchases, delivering messages, and running errands. He or she will not fight for you and will not follow you into obviously dangerous areas (such as dungeons), and will leave if frequently endangered or abused. If he or she is killed, the organization assigns you another within a few days. Note: This feature is a variant of the Noble Knight's Retainers feature."
@@ -481,168 +481,168 @@
                         "isFeature": true,
                         "isAlternateFeature": true
                     }
-                }
-            ]
-        },
-        {
-            "name": "Suggested Characteristics",
-            "type": "entries",
-            "entries": [
-                "Being a merchant involved having a head for numbers, a strong personality, the ability to make deals with hostile adversaries, a strong sword arm to fight off bandits, and the intuition for knowing what people want and need. The art of business is the art of finding the best path to profit, and that path might be different with each transaction. It takes a strong mind and a stronger stomach to succeed. So why did you fail or succeed?",
-                {
-                    "type": "table",
-                    "colLabels": [
-                        "d8",
-                        "Personality Trait"
-                    ],
-                    "colStyles": [
-                        "col-2 text-center",
-                        "col-10"
-                    ],
-                    "rows": [
-                        [
-                            "1",
-                            "I didn't have the cutthroat attitude necessary to succeed. I won't make that mistake again."
-                        ],
-                        [
-                            "2",
-                            "Even my competitors said I was affable and talented. Those traits should serve me well."
-                        ],
-                        [
-                            "3",
-                            "To prosper, you have to be in control."
-                        ],
-                        [
-                            "4",
-                            "The customer is always right."
-                        ],
-                        [
-                            "5",
-                            "I was cutting corners and breaking deals to maximize profit. That's why I failed."
-                        ],
-                        [
-                            "6",
-                            "When I get an idea, I am single-minded in its execution\u2014even if it's a terrible idea."
-                        ],
-                        [
-                            "7",
-                            "If I can be everyone's friend, I'll always have support."
-                        ],
-                        [
-                            "8",
-                            "My heart wasn't in being a merchant, so I failed. I'm not all that keen on adventuring either, but I need the money."
-                        ]
-                    ]
                 },
                 {
-                    "type": "table",
-                    "colLabels": [
-                        "d6",
-                        "Ideal"
-                    ],
-                    "colStyles": [
-                        "col-2 text-center",
-                        "col-10"
-                    ],
-                    "rows": [
-                        [
-                            "1",
-                            "Survival. Where there's life, there's hope. If I remain alive and flexible, I can succeed. (Any)"
-                        ],
-                        [
-                            "2",
-                            "Generosity. People helped me when I was down. Now that I'm back on my feet, I'll pay it forward. (Good)"
-                        ],
-                        [
-                            "3",
-                            "Excitement. Caution got me nowhere in my previous business. I'm not going to let it hold me back now. (Chaotic)"
-                        ],
-                        [
-                            "4",
-                            "Wealth. With enough coin, I can buy comfort, power, knowledge, and even eternal life. Nothing will stand between me and money. (Evil)"
-                        ],
-                        [
-                            "5",
-                            "Stability. The mercantile trade was too chaotic for me. I need a nice stable profession, like adventuring. (Lawful)"
-                        ],
-                        [
-                            "6",
-                            "Redemption. Too many people consider me a failure. So I need to prove them wrong. (Any)"
-                        ]
-                    ]
-                },
-                {
-                    "type": "table",
-                    "colLabels": [
-                        "d6",
-                        "Bond"
-                    ],
-                    "colStyles": [
-                        "col-2 text-center",
-                        "col-10"
-                    ],
-                    "rows": [
-                        [
-                            "1",
-                            "My family means everything to me. I failed them before, and I must not do so again."
-                        ],
-                        [
-                            "2",
-                            "My church provides a connection to my god, so I must ensure that it is protected and funded."
-                        ],
-                        [
-                            "3",
-                            "My former business partner fell ill, and then our business failed. Part of my new venture involves earning enough to take care of their family."
-                        ],
-                        [
-                            "4",
-                            "If I take care of my possessions, they'll take care of me. People come and go, but a weapon or a wand is something you can always rely on."
-                        ],
-                        [
-                            "5",
-                            "Although my business failed, the people of my community were kind to me. I'll do everything in my power to protect them."
-                        ],
-                        [
-                            "6",
-                            "I owe a dangerous person a lot of money. As long as they're happy, they let my debt rest unpaid."
-                        ]
-                    ]
-                },
-                {
-                    "type": "table",
-                    "colLabels": [
-                        "d6",
-                        "Flaw"
-                    ],
-                    "colStyles": [
-                        "col-2 text-center",
-                        "col-10"
-                    ],
-                    "rows": [
-                        [
-                            "1",
-                            "Why spend gold here when you can buy the same thing for copper in the next town?"
-                        ],
-                        [
-                            "2",
-                            "I must have the best of everything. Like, right now."
-                        ],
-                        [
-                            "3",
-                            "You haven't heard of me? I'm sure that's because of your ignorance and low breeding."
-                        ],
-                        [
-                            "4",
-                            "I failed, but I'm awesome. So when anyone else is successful, it must be because of nepotism, dishonesty, or dumb luck."
-                        ],
-                        [
-                            "5",
-                            "I find that most people are trustworthy. Hey, where's my belt pouch?"
-                        ],
-                        [
-                            "6",
-                            "Nothing gets between me and danger except my fellow adventurers. So I'll be sure to put them there."
-                        ]
+                    "name": "Suggested Characteristics",
+                    "type": "entries",
+                    "entries": [
+                        "Being a merchant involved having a head for numbers, a strong personality, the ability to make deals with hostile adversaries, a strong sword arm to fight off bandits, and the intuition for knowing what people want and need. The art of business is the art of finding the best path to profit, and that path might be different with each transaction. It takes a strong mind and a stronger stomach to succeed. So why did you fail or succeed?",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d8",
+                                "Personality Trait"
+                            ],
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-10"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "I didn't have the cutthroat attitude necessary to succeed. I won't make that mistake again."
+                                ],
+                                [
+                                    "2",
+                                    "Even my competitors said I was affable and talented. Those traits should serve me well."
+                                ],
+                                [
+                                    "3",
+                                    "To prosper, you have to be in control."
+                                ],
+                                [
+                                    "4",
+                                    "The customer is always right."
+                                ],
+                                [
+                                    "5",
+                                    "I was cutting corners and breaking deals to maximize profit. That's why I failed."
+                                ],
+                                [
+                                    "6",
+                                    "When I get an idea, I am single-minded in its execution\u2014even if it's a terrible idea."
+                                ],
+                                [
+                                    "7",
+                                    "If I can be everyone's friend, I'll always have support."
+                                ],
+                                [
+                                    "8",
+                                    "My heart wasn't in being a merchant, so I failed. I'm not all that keen on adventuring either, but I need the money."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Ideal"
+                            ],
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-10"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Survival. Where there's life, there's hope. If I remain alive and flexible, I can succeed. (Any)"
+                                ],
+                                [
+                                    "2",
+                                    "Generosity. People helped me when I was down. Now that I'm back on my feet, I'll pay it forward. (Good)"
+                                ],
+                                [
+                                    "3",
+                                    "Excitement. Caution got me nowhere in my previous business. I'm not going to let it hold me back now. (Chaotic)"
+                                ],
+                                [
+                                    "4",
+                                    "Wealth. With enough coin, I can buy comfort, power, knowledge, and even eternal life. Nothing will stand between me and money. (Evil)"
+                                ],
+                                [
+                                    "5",
+                                    "Stability. The mercantile trade was too chaotic for me. I need a nice stable profession, like adventuring. (Lawful)"
+                                ],
+                                [
+                                    "6",
+                                    "Redemption. Too many people consider me a failure. So I need to prove them wrong. (Any)"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Bond"
+                            ],
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-10"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "My family means everything to me. I failed them before, and I must not do so again."
+                                ],
+                                [
+                                    "2",
+                                    "My church provides a connection to my god, so I must ensure that it is protected and funded."
+                                ],
+                                [
+                                    "3",
+                                    "My former business partner fell ill, and then our business failed. Part of my new venture involves earning enough to take care of their family."
+                                ],
+                                [
+                                    "4",
+                                    "If I take care of my possessions, they'll take care of me. People come and go, but a weapon or a wand is something you can always rely on."
+                                ],
+                                [
+                                    "5",
+                                    "Although my business failed, the people of my community were kind to me. I'll do everything in my power to protect them."
+                                ],
+                                [
+                                    "6",
+                                    "I owe a dangerous person a lot of money. As long as they're happy, they let my debt rest unpaid."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Flaw"
+                            ],
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-10"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Why spend gold here when you can buy the same thing for copper in the next town?"
+                                ],
+                                [
+                                    "2",
+                                    "I must have the best of everything. Like, right now."
+                                ],
+                                [
+                                    "3",
+                                    "You haven't heard of me? I'm sure that's because of your ignorance and low breeding."
+                                ],
+                                [
+                                    "4",
+                                    "I failed, but I'm awesome. So when anyone else is successful, it must be because of nepotism, dishonesty, or dumb luck."
+                                ],
+                                [
+                                    "5",
+                                    "I find that most people are trustworthy. Hey, where's my belt pouch?"
+                                ],
+                                [
+                                    "6",
+                                    "Nothing gets between me and danger except my fellow adventurers. So I'll be sure to put them there."
+                                ]
+                            ]
+                        }
                     ]
                 }
             ],
@@ -735,13 +735,18 @@
             "hasFluff": true
         },
         {
-            "name": "Astral Sea Astronomer",
+            "name": "Astral Sea Scholar",
             "source": "SFHB",
             "page": 146,
             "skillProficiencies": [
                 {
                     "arcana": true,
-                    "history": true
+                    "choose": {
+                        "from": [
+                            "history",
+                            "religion"
+                        ]
+                    }
                 }
             ],
             "toolProficiencies": [
@@ -788,12 +793,12 @@
                     "items": [
                         {
                             "type": "item",
-                            "name": "Description (Astral Sea Astronomer):",
+                            "name": "Description (Astronomer):",
                             "entry": "The Astral Sea Astronomer is a student of the Known Spheres. They study the spheres, the stars, the phlogiston, and the worlds of space, seeking the underlying key to the mystery of creation. In their travels, the Astronomer gains many insights into the workings of the spheres. They may be a driven seeker of hidden wisdom or a spaceborne tourist, sampling the pleasures of every world they visits. The Astronomer is a source of information. His studies and travels give his insight into the nature of the planets and the crystal spheres, and his breadth of experience makes him a valued travel companion and are ideal navigators on a spelljammer vessel. Like any scholar, however, the Astronomer is sometimes perceived as an ineffectual bystander. This is by no means universally true."
                         },
                         {
                             "type": "item",
-                            "name": "Description (Astral Sea Astrologer):",
+                            "name": "Description (Astrologer):",
                             "entry": "The Astrologer is a different counterpart to the Astronomer in approach to the stars Instead of pursuing deep magical or factual truths in his explorations, the Astrologer seeks the hand of the gods in the structure of the universe. “To the Astrologer, the crystal spheres, the planets, and the stars all speak of the power of the gods. Even the great starbeasts demonstrate that the power of the true gods is beyond human comprehension. The Astrologer studies the movements of the spheres to determine the will of the gods. Thus, their strength lies in his knowledge of Known Space and his understanding of the principles upon which the universe itself is built."
                         },
                         {
@@ -830,23 +835,10 @@
                     }
                 },
                 {
-                    "name": "Feature: Reader of the Stars",
-                    "type": "entries",
-                    "entries": [
-                        "As you observe the stars the work of various dieties, you are able to determine patterns in the stars to benefit yourself. As a result, you gain the {@feat Lucky} from the players handbook. However, you are able to use your luck points on allies within 30 feet as well, but not more than 1/turn.",
-                        "While in known space or spheres, you can determine exactly where you are without a map.",
-                        "Astrologers see the hands of the dieties in all of the features of the universe. They spend much of their time in contemplation, considering the true meaning behind the wondrous sights of space. As a result, this can give them negative reactions when dealing with nonmagical warrior based societies or those who do not believe in deties."
-                    ],
-                    "data": {
-                        "isFeature": true,
-                        "isAlternateFeature": true
-                    }
-                },
-                {
                     "type": "entries",
                     "name": "Suggested Characteristics",
                     "entries": [
-                        "Use the tables for the {@background sage} or the {@backrgound Acolyte} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a Astrologer or Astronomer.",
+                        "Use the tables for the {@background sage} or the {@background Acolyte} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a Astrologer or Astronomer.",
                         "Your bond is almost certainly associated either with the place where you grew up or with the knowledge you hope to acquire through adventuring. Your ideal is no doubt related to how you view the quest for knowledge and truth - perhaps as a worthy goal in itself, or maybe as a means to a desirable end."
                     ]
                 }
@@ -854,7 +846,7 @@
             "hasFluff": true
         },
         {
-            "name": "Geologist",
+            "name": "Planatary Geomancer",
             "source": "SFHB",
             "page": 191,
             "skillProficiencies": [
@@ -1260,7 +1252,7 @@
                     "name": "Feature: Magical Identity",
                     "type": "entries",
                     "entries": [
-                        "You gain the Arcane Initiate feat but you must select bard, sorcerer, warlock or wizard and the 1st level spell chosen must be disguise self even if it is not on your spell list.",
+                        "You gain the {@feat Arcane Initiate} feat but you must select bard, sorcerer, warlock or wizard and the 1st level spell chosen must be disguise self even if it is not on your spell list.",
                         "You have created a secret identity that you use to conceal your identity and that offers a covering explanation for your presence in the Spheres. In addition, you can forge documents, including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy Note: This feature is a variant of the Charlatan feature."
                     ],
                     "data": {
@@ -1546,7 +1538,7 @@
                         },
                         {
                             "type": "item",
-                            "name": "Description (Evangelist):",
+                            "name": "Description (Missionary):",
                             "entry": "The Missionary travels the stars seeking beings less fortunate. When these creatures are found finds them, the Missionary dedicates himself to their salvation and civilization through his teaching and through patient explanation of the benefits of his religion. Although the Missionary and the Evangelist seem similar at first glance, they take quite different approaches to collecting souls for their respective religions. While the Evangelist seeks to convert through persuasion and charisma, the Missionary improves the lives of the heathen as an inducement to get them to join his religion. While the Evangelist may produce more spectacular and sudden results, the Missionary is more tenacious in the long run, and more likely to transform the societies he visits, than the orator-Evangelist."
                         },
                         {
@@ -1583,7 +1575,7 @@
                     }
                 },
                 {
-                    "name": "Feature: Missionary's Flock",
+                    "name": "Optional Feature (Missionary): Missionary's Flock",
                     "type": "entries",
                     "entries": [
                         "You gain the {@feat Skilled} feat from the players handbook. As a benefit of your enahnced skills and willingness to integrate with non-believer societies, You have the service of three converts or churchmen(women) that are loyal to your church/religion. These followers can be attendants or messengers, and one might be a majordomo. {@b One of your followers is someone who serves as your apprentice, aiding you in exchange for training on his or her own path to becoming a priest} (This person could be your bond.). Your two remaining followers can have varied responsabilities as you choose. ",
@@ -1607,7 +1599,7 @@
         },
         {
             "name": "Wayward Medicus",
-            "source": "PHB",
+            "source": "SFHB",
             "page": 134,
             "skillProficiencies": [
                 {
