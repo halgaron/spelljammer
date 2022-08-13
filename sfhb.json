@@ -824,14 +824,26 @@
                     ]
                 },
                 {
-                    "name": "Feature: Astral Intellect",
+                    "name": "Feature: (Astronomer) Astral Intellect",
                     "type": "entries",
                     "entries": [
-                        "You gain the {@feat Skilled} feat from the player's handbook. In addition, While in known space or spheres, you can determine exactly where you are without a map.",
+                        "Your studies have given you more knoweledge and skills, as such you gain the {@feat Skilled} feat from the player's handbook. In addition, While in known space or spheres, you can determine exactly where you are without a map.",
                         "Astronomers are fascinated with space, but they tend to be disdainful of groundlings. This disdain is difficult to hide, and groundlings usually react unfaorably around astronomers."
                     ],
                     "data": {
                         "isFeature": true
+                    }
+                },
+                {
+                    "name": "Optional Feature (Astrologer): Will of the gods",
+                    "type": "entries",
+                    "entries": [
+                        "As a result of observing the dieties will in the stars, you are able to take advantage of such power and predictions. You gain the {@feat Lucky} feat from the players handbook. However, you may utilize your luck points on allies within 30 feet as a reaction.",
+                        "Astrologers see the hands of the gods in all of the features of the universe. They spend much of their time in contemplation, considering the true meaning behind the wondrous sights of space. This sense of distance causes warriors based societies and those who do not believe in dieties to look upon you unfavorably."
+                    ],
+                    "data": {
+                        "isFeature": true,
+                        "isAlternateFeature": true
                     }
                 },
                 {
