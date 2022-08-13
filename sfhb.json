@@ -112,22 +112,7 @@
             "srd": false,
             "backgroundFluff": [
                 {
-                    "name": "Crusader",
-                    "source": "SFHB",
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "entries": [
-                                {
-                                    "type": "entries",
-                                    "entries": [
-                                        "You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric\u2014performing sacred rites is not the same thing as channeling divine power.",
-                                        "Choose a god, a pantheon of gods, or some other quasi-divine being, and work with your DM to detail the nature of your religious service. The Gods of the Multiverse section contains a sample pantheon, from the Forgotten Realms setting. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                "entry": true
                 }
             ],
             "skillProficiencies": [
@@ -179,7 +164,12 @@
                     "style": "list-hang-notitle",
                     "items": [
                         {
-                            "type": "item",
+                        "type": "item",
+                        "name": "Description:",
+                        "entry": "Crusaders are religious warriors, bringing the sword and the truth to the heathens of the Known Spheres. They are the worldly might that supports the spiritual realm of the gods. Some Crusaders are proselytizing conquerors who seek to bring all the beings of space beneath the governing umbrella of their true religion (whichever one that is). Others are pious defenders of the faithful who act only to guard members of their religion in far-flung outposts across the spheres.         The Crusader is the military arm of his religion. He is not a lone warrior for his god; he is part of an organized force of warriors dedicated to ensuring the continued growth of their religion through military power. It is the Crusader's job to ensure that his religion achieves its worldly goals. Those goals may be expansive or defensive, depending on the religion's philosophy and leadership."
+                    },
+                    {
+                        "type": "item",
                             "name": "Skill Proficiencies",
                             "entry": "{@skill Athletics}, {@skill Religion}"
                         },
@@ -205,7 +195,7 @@
                     "name": "Feature: Champion of the Faith",
                     "type": "entries",
                     "entries": [
-                        "You gain the {@feat Fighting Initiate} from Tasha’s Cauldron of Everything. The {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} chosen must match your diety’s favored weapon. (Ex: Archery for a ranged weapon, Dueling for a one handed  DAggoweapon, Great weapon fighting for a versatile or heavy weapon, or Thrown Weapon Fighting for a weapon with the thrown property. Work this out with your DM as needed)",
+                        "You gain the {@feat Fighting Initiate} from Tasha’s Cauldron of Everything. The {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} chosen must match your diety’s favored weapon. (Ex: Archery for a ranged weapon, Dueling for a one handed or versatile weapon, Great weapon fighting for a versatile or heavy weapon, or Thrown Weapon Fighting for a weapon with the thrown property. Work this out with your DM as needed)",
                         "The Crusader has the backing of his faith and can turn to his superiors for assistance. Although the DM must adjudicate how this affects play, the Crusader can count on his faith's emotional support—and perhaps even financial support—if he wants to pursue a goal consistent with the goals of the religion. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.",
                         "The primary hindrance of the Crusader is his duty to his religion and his superiors. Naturally, the faith makes many demands on its faithful warriors. If the Crusader is a common soldier, he's subject to the orders of his officers. If the Crusader is a military officer, he's subject to the orders of his superiors and the priesthood, and bears the added stress of having to look after his men whenever they're engaged in military action. Also, many faiths do not restrict their requests to simple military actions. Crusaders (particularly uniquely talented ones like PCs) are sent all over the Known Spheres on special quests and adventures. Often, pay for these assignments is nothing more than the monthly pay-ration and a verbal 'Well done' from the Crusader's immediate superior."
                     ],
@@ -274,6 +264,11 @@
                     "items": [
                         {
                             "type": "item",
+                            "name": "Description:",
+                            "entry": "The Frontiersman is the explorer of the Known Spheres, expander of the reach of the spaceborne, and discoverer of new worlds. The Frontiersman lives at the fringes of civilized space, taming worlds and finding out what lies just beyond the phlogiston. Frontiersmen tend to be solitary or bound into tight-knit groups. As a rule, they distrust strangers and are more willing to depend on themselves than any whims of fate or pleas to fair treatment. They are pragmatic and sometimes seen as unnecessarily heartless by their more civilized brethren, but they are generally not unnecessarily cruel. The Frontiersman often represents his civilization in first contacts with new races and peoples. While most Frontiersmen toil their whole lives without distinction, a few discover one of the many natural troves of space (uninhabited worlds with rich resources), becoming wealthier than the wealthiest adventurer. The Frontiersman is the explorer, expanding society's horizons for the good of his soul (and for his profit, of course). Without Frontiersmen, the Known Spheres would not be known, and the many uninhabited worlds of space would sit idle. "
+                        },
+                        {
+                            "type": "item",
                             "name": "Skill Proficiencies",
                             "entry": "{@skill Athletics}, {@skill Survival}"
                         },
@@ -290,15 +285,545 @@
                         {
                             "type": "item",
                             "name": "Equipment",
-                            "entry": "A {@item Map or Scroll Case|phb|wooden case} containing a map to a ruin or dungeon, a {@item bullseye lantern|phb}, a {@item miner's pick|phb}, a set of {@item traveler's clothes|phb}, a {@item shovel|phb}, a {@item two-person tent|phb}, a {@item trinket|phb|trinket} recovered from a dig site, and a {@item pouch|phb} containing 25 gp"
+                            "entry": "A {@item Map or Scroll Case|phb|wooden case} containing a map to a ruin or dungeon, a {@item bullseye lantern|phb}, a {@item miner's pick|phb}, a set of {@item traveler's clothes|phb}, a {@item shovel|phb}, a {@item two-person tent|phb}, a {@item trinket|phb|trinket} recovered from your travels, and a {@item pouch|phb} containing 25 gp"
                         }
                     ]
                 },
                 {
-                    "name": "Feature: Wanderer",
+                    "name": "Feature: Frontier Spirit",
                     "type": "entries",
                     "entries": [
-                        "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+                        "You gain the {@feat Tough} Feat from the Player’s Handbook. The Frontiersman is best suited for life on their own. Although they will adventure (indeed, their entire life may be deemed an adventure), they are best when working by themselves.  As a result, frontiersmen are able to navigate through pathways, meaning difficult terrain doesn’t slow your overland speed.",
+                        "Frontiersmen are distrustful of authority, especially when it is organized into a governmental force. This distrust manifests itself in surly attitudes, distrustful glances, and a generally bad reputation. Frontiersmen can’t help themselves when dealing with government officials, members of priestly bureaucracies, and other authority figures.",
+                        "On the flip side, the majority of members of remote shperes, planets, villages or the like look fondly on your demeanor, grant you safe harbor while passing through their territory and possibly house you and your companions temporarily as long as it does not place them in immediate danger."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "type": "section",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background outlander} or {@background hermit} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a frontiersmen."
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Marine",
+            "source": "SFHB",
+            "page": 31,
+            "skillProficiencies": [
+                {
+                    "athletics": true,
+                    "survival": true
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "vehicles (space)": true,
+                    "vehicles (land)": true
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        {
+                            "item": "dagger|phb",
+                            "displayName": "dagger that belonged to a fallen comrade"
+                        },
+                        {
+                            "special": "folded flag emblazoned with the symbol of your ship or company"
+                        },
+                        "traveler's clothes|phb",
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1000
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "The Marine is the soldier of shipboard life. Marines are trained in the arts of war aboard ship: repelling boarders (or boarding another vessel), operating large weapons, and engaging in the tactics of ship-to-ship war. Not all Marines are line soldiers. In most military organizations, Marines have their own hierarchy of command, parallel to the command of the regular shipboard personnel. The Marine commander is subservient only to the ship's captain, and has considerable independence in how he conducts his affairs. Famous Marine organizations include the Kintiara of the elven Imperial Fleet (which many believe to be the finest force of Marines in the Known Spheres), the Scro Brethren of the Knife (who man the dread scro battlewagons), and the Wing Jen Sen of the Shou dragonships. The giff military considers all their troops to be Marines.  Marines serve organized military space naval forces, providing the muscle for hand-to-hand battle. They also serve aboard merchant vessels as security officers and as tactical commanders in time of battle."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Athletics}, {@skill Survival}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@filter Vehicles (space, land)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land);vehicle (space)}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A {@item dagger|phb} that belonged to a fallen comrade, a folded flag emblazoned with the symbol of your ship or company, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Feature: Steady",
+                    "entries": [
+                        "You gain the {@feat Fighting Initiate} from Tasha’s Cauldron of everything.  In return, you have access to any military buildings of your unit and a direct line of communication with officers and other soldiers. You can also pass through your chosen patrol zone without question—although you can't bring guests into anythe restricted areas. Additionally, you're always welcome at the establishments such as taverns, inns for which you are responsible for, as most folk are glad to greet you with a smile and a mug of ale."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Space Merchant",
+            "source": "SFHB",
+            "page": 49,
+            "skillProficiencies": [
+                {
+                    "persuasion": true,
+                    "choose": {
+                        "from": [
+                            "animal handling",
+                            "insight",
+                            "deception",
+                            "performance"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "artisan's tools": true
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        {
+                            "equipmentType": "toolArtisan"
+                        },
+                        "merchant's scale|phb",
+                        "fine clothes|phb",
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1000
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "The Merchant is the bearer of commerce among the Known Spheres. Merchants travel from world to world and from sphere to sphere, buying and selling their cargoes. They thrive on the different needs and desires of the many inhabitants of the spheres. Merchants are not all venal profit-seekers—but it helps. The risks of interworld commerce create a narrow opportunity to make a profit, and it takes many such profits to offset a long string of losses. Still, the Merchant plies the spacelanes, looking for a little piece of the action. Merchants are the lifeblood of a thriving spa-cefaring civilization. Once you have entered the heart of the Known Spheres, it is the Merchant who maintains the majority of the traffic between the spheres. Merchants are not only conveyors of goods. They carry information and passengers from sphere to sphere and help convert the spheres from wild-space to a community."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Persuasion} and your choice from {@skill Animal Handling}, {@skill Insight}, {@skill Deception}, or {@skill Performance}, "
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "Any one of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "One set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, {@item merchant's scale|phb}, a set of {@item fine clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Skilled Broker",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Skilled} from the players handbook. From your time as a merchant, you retain connections with wholesalers, suppliers, and other merchants and entrepreneurs. You can call upon these connections when looking for items or information.",
+                        "When you take the Downtime Activity: Work, you can choose to utilize any of the skills you gained from this background instead of the standard ones during the work week. In addition, your wages above poor lifestyle are increased by +5 GP for modest and +10 GP for comfortable lifestyle respectively."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "name": "Feature: Merchant House",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Skilled} from the players handbook. In addition, your merchant organization has assigned you the services of a loyal retainer from the business, a factor, husbanding agent, seafarer,spacefarer, caravan guard, or clerk. This individual is a commoner who can perform mundane tasks for you such as making purchases, delivering messages, and running errands. He or she will not fight for you and will not follow you into obviously dangerous areas (such as dungeons), and will leave if frequently endangered or abused. If he or she is killed, the organization assigns you another within a few days. Note: This feature is a variant of the Noble Knight's Retainers feature."
+                    ],
+                    "data": {
+                        "isFeature": true,
+                        "isAlternateFeature": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Suggested Characteristics",
+            "type": "entries",
+            "entries": [
+                "Being a merchant involved having a head for numbers, a strong personality, the ability to make deals with hostile adversaries, a strong sword arm to fight off bandits, and the intuition for knowing what people want and need. The art of business is the art of finding the best path to profit, and that path might be different with each transaction. It takes a strong mind and a stronger stomach to succeed. So why did you fail or succeed?",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d8",
+                        "Personality Trait"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "I didn't have the cutthroat attitude necessary to succeed. I won't make that mistake again."
+                        ],
+                        [
+                            "2",
+                            "Even my competitors said I was affable and talented. Those traits should serve me well."
+                        ],
+                        [
+                            "3",
+                            "To prosper, you have to be in control."
+                        ],
+                        [
+                            "4",
+                            "The customer is always right."
+                        ],
+                        [
+                            "5",
+                            "I was cutting corners and breaking deals to maximize profit. That's why I failed."
+                        ],
+                        [
+                            "6",
+                            "When I get an idea, I am single-minded in its execution\u2014even if it's a terrible idea."
+                        ],
+                        [
+                            "7",
+                            "If I can be everyone's friend, I'll always have support."
+                        ],
+                        [
+                            "8",
+                            "My heart wasn't in being a merchant, so I failed. I'm not all that keen on adventuring either, but I need the money."
+                        ]
+                    ]
+                },
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d6",
+                        "Ideal"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "Survival. Where there's life, there's hope. If I remain alive and flexible, I can succeed. (Any)"
+                        ],
+                        [
+                            "2",
+                            "Generosity. People helped me when I was down. Now that I'm back on my feet, I'll pay it forward. (Good)"
+                        ],
+                        [
+                            "3",
+                            "Excitement. Caution got me nowhere in my previous business. I'm not going to let it hold me back now. (Chaotic)"
+                        ],
+                        [
+                            "4",
+                            "Wealth. With enough coin, I can buy comfort, power, knowledge, and even eternal life. Nothing will stand between me and money. (Evil)"
+                        ],
+                        [
+                            "5",
+                            "Stability. The mercantile trade was too chaotic for me. I need a nice stable profession, like adventuring. (Lawful)"
+                        ],
+                        [
+                            "6",
+                            "Redemption. Too many people consider me a failure. So I need to prove them wrong. (Any)"
+                        ]
+                    ]
+                },
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d6",
+                        "Bond"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "My family means everything to me. I failed them before, and I must not do so again."
+                        ],
+                        [
+                            "2",
+                            "My church provides a connection to my god, so I must ensure that it is protected and funded."
+                        ],
+                        [
+                            "3",
+                            "My former business partner fell ill, and then our business failed. Part of my new venture involves earning enough to take care of their family."
+                        ],
+                        [
+                            "4",
+                            "If I take care of my possessions, they'll take care of me. People come and go, but a weapon or a wand is something you can always rely on."
+                        ],
+                        [
+                            "5",
+                            "Although my business failed, the people of my community were kind to me. I'll do everything in my power to protect them."
+                        ],
+                        [
+                            "6",
+                            "I owe a dangerous person a lot of money. As long as they're happy, they let my debt rest unpaid."
+                        ]
+                    ]
+                },
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d6",
+                        "Flaw"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "Why spend gold here when you can buy the same thing for copper in the next town?"
+                        ],
+                        [
+                            "2",
+                            "I must have the best of everything. Like, right now."
+                        ],
+                        [
+                            "3",
+                            "You haven't heard of me? I'm sure that's because of your ignorance and low breeding."
+                        ],
+                        [
+                            "4",
+                            "I failed, but I'm awesome. So when anyone else is successful, it must be because of nepotism, dishonesty, or dumb luck."
+                        ],
+                        [
+                            "5",
+                            "I find that most people are trustworthy. Hey, where's my belt pouch?"
+                        ],
+                        [
+                            "6",
+                            "Nothing gets between me and danger except my fellow adventurers. So I'll be sure to put them there."
+                        ]
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Arcane Purveyor",
+            "source": "SFHB",
+            "page": 137,
+            "skillProficiencies": [
+                {
+                    "arcana": true,
+                    "persuasion": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 2
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        "ink (1-ounce bottle)|phb",
+                        {
+                            "special": "quill"
+                        },
+                        {
+                            "special": "small knife"
+                        },
+                        {
+                            "special": "a common magical item of your choice."
+                        },
+                        "common clothes|phb",
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1000
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "Arcane purveyors are traders who specialize in magical devices of all sorts, experts on the various types of magical items that can be found within the Known Spheres. They are also avid collectors of such items, more so than even most adventurers. They are well known for interest in even the most useless-seeming item, as knowledge of it may be valuable later in their careers. Early in their careers they take much of their cargo on consignment or act as brokers for sales between patrons; the high-priced cargoes are beyond their means. At this level, they receive only a small commissions of any sale. More experienced (and wealthier) merchants invest their own funds in these magical treasures, traveling from world to world seeking buyers for their wares."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Arcana}, {@skill Persuasion}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "Two of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A {@item Ink (1-ounce bottle)|phb|bottle of black ink}, a quill, a empty ledger {@item Book|phb} a small knife, a common magical item of your choice, a set of {@item common clothes|phb}, and a belt {@item pouch|phb} containing 10 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Magical Item Network",
+                    "type": "entries",
+                    "entries": [
+                        "Due to your extensive experience in trade and practical study of magical items, You gain the {@feat ritual caster} feat from the players handbook and must choose wizard for the feat and identify as one of the rituals chosen. If you are a spellcaster who gains ritual casting, you gain identify, and another ritual from your class list or wizard's(your choice).",
+                        "You also have a vast network of contacts which makes it easier for you to procure or sell magical items. When buying magic items during downtime, if you spend money on the search, you pay 50 gp instead of 100 gp per bonus modifier. In addition, you can search for up to 2 magical items per workweek and double the number of other magical items for sale. (Example: if you roll a 16-20 you roll 2d4 instead of 1d4 times om the magic item table D). If you are selling a magical item, you do not need to pay the 25 gp finder's fee and you can also sell up to two items at a time.",
+                        "As a result of your travels and possibly an affiliation with a trading company, most merchants you deal with across the spheres will usually treat you more favorably than most folk, that is of course unless you sell cursed, fake or mislabled items."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "type": "section",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background Guild Artisan} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a Magical Purveyor.",
+                        "Your bond is traditionally associated with your merchant company or sometimes to a particular magic item in your possession. Due to the inherent qualities to succeed in this background, some Flaws can range from simple greed or with an unhealthy obsession with aquiring magical items, even to their companion's detriment."
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Astral Sage",
+            "source": "SFHB",
+            "page": 146,
+            "skillProficiencies": [
+                {
+                    "arcana": true,
+                    "history": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "cartographer's tools": true
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        {
+                            "item": "robes|phb",
+                            "displayName": "scholar's robes"
+                        },
+                        "pouch|phb",
+                        {
+                            "special": "quill"
+                        },
+                        {
+                            "special": "ink"
+                        },
+                        {
+                            "special": "folded parchment"
+                        },
+                        {
+                            "special": "small penknife"
+                        },
+                        {
+                            "item": "book|phb",
+                            "displayName": "borrowed book on the subject of your current study, such as a planet, moon, system or specific location."
+                        },
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1000
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description (Astronomer):",
+                            "entry": "The Astronomer is a student of the Known Spheres. They study the spheres, the stars, the phlogiston, and the worlds of space, seeking the underlying key to the mystery of creation. In their travels, the Astronomer gains many insights into the workings of the spheres. They may be a driven seeker of hidden wisdom or a spaceborne tourist, sampling the pleasures of every world they visits. The Astronomer is a source of information. His studies and travels give his insight into the nature of the planets and the crystal spheres, and his breadth of experience makes him a valued travel companion. Like any scholar, however, the Astronomer is sometimes perceived as an ineffectual bystander. This is by no means universally true."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill History}, plus {@skill Arcana}."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@item Cartographer's tools|phb}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "any one of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "Scholar's {@item robes|phb}, {@item cartogapher's tools|phb} a writing kit (small {@item pouch|phb} with a quill, ink, folded parchment, and a small penknife), a borrowed {@item book|phb} on the subject of your current study, and a {@item pouch|phb} containing 10 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Star Fetched",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Keen Mind} feat from the player's handbook. Though others must often endure extensive interviews and significant fees to gain access to even the most common archives in your library, you have free and easy access to the majority of the library, though it might also have repositories of lore that are too valuable, magical, or secret to permit anyone immediate access.",
+                        "You have a working knowledge of your cloister's personnel and bureaucracy, and you know how to navigate those connections with some ease.",
+                        "Astronomers are fascinated with space, but they tend to be disdainful of groundlings. This disdain is difficult to hide, and groundlings usually react unfaorably around astronomers."
                     ],
                     "data": {
                         "isFeature": true
@@ -308,13 +833,432 @@
                     "type": "entries",
                     "name": "Suggested Characteristics",
                     "entries": [
-                        "Use the tables for the {@background soldier} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a crusader of your order.",
-                        "Your bond almost always involves the order to which you belong (or at least key members of it), and it is highly unusual for a knight's ideal not to reflect the agenda, sentiment, or philosophy of one's order."
+                        "Use the tables for the {@background sage} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a cloistered scholar.",
+                        "Your bond is almost certainly associated either with the place where you grew up or with the knowledge you hope to acquire through adventuring. Your ideal is no doubt related to how you view the quest for knowledge and truth - perhaps as a worthy goal in itself, or maybe as a means to a desirable end."
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Geologist",
+            "source": "SFHB",
+            "page": 191,
+            "skillProficiencies": [
+                {
+                    "arcana": true,
+                    "choose": {
+                        "from": [
+                            "insight",
+                            "religion",
+                            "persuasion",
+                            "history",
+                            "nature"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "cartographer's tools": true
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        {
+                            "special": "leather-bound diary"
+                        },
+                        "ink (1-ounce bottle)|phb",
+                        "ink pen|phb",
+                        "traveler's clothes|phb",
+                        {
+                            "item": "trinket|phb",
+                            "displayName": "trinket of special significance"
+                        },
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1000
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Description:",
+                            "entry": "The Geomancer is an expert on the planetary types of crystal spheres. Unlike the Astronomer (who is more of a historian and cataloger of star systems), the Geomancer is a student of the “various types of worlds, their geographic and physical characteristics, their societies, and their utility. The Geomancer is primarily useful in exploratory missions where the route passes through new spheres. The Geomancer studies the newly discovered worlds and indicates likely sources of food, water, air, and valuable commodities. In addition to studying worlds from space, Geomancers are much better at communicating with groundlings than the haughty Astronomers. Geomancers view the variety of groundling civilization as fascinating and spend much of their time studying it."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Arcana}, and your choice from either {@skill Religion}, {@skill Insight}, {@skill History}, {@skill Nature} or {@skill Persuasion}."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool",
+                            "entry": "{@item Cartographer's tools|phb}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "One of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A leather-bound diary, a {@item Ink (1-ounce bottle)|phb|bottle of ink}, an {@item ink pen|phb}, a set of {@item traveler's clothes|phb}, one {@item trinket|phb} of special significance, and a {@item pouch|phb} containing 10 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultural Chameleon",
+                    "type": "entries",
+                    "entries": [
+                        "Before becoming an adventurer, you spent much of your adult life away from your homeland, living among people different from your kin. You came to understand these foreign cultures and the ways of their people, who eventually treated you as one of their own. One culture had more of an influence on you than any other, shaping your beliefs and customs Choose a race whose culture you've adopted, or roll on the Adopted Culture table.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d12",
+                                "Culture"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Hadzodee"
+                                ],
+                                [
+                                    "2",
+                                    "Dwarf"
+                                ],
+                                [
+                                    "3",
+                                    "Elf"
+                                ],
+                                [
+                                    "4",
+                                    "Goblin"
+                                ],
+                                [
+                                    "5",
+                                    "Mecanognome"
+                                ],
+                                [
+                                    "6",
+                                    "Human"
+                                ],
+                                [
+                                    "7",
+                                    "Lizardfolk"
+                                ],
+                                [
+                                    "8",
+                                    "Scro"
+                                ],
+                                [
+                                    "9",
+                                    "Giff"
+                                ],
+                                [
+                                    "10",
+                                    "Plasmoid"
+                                ],
+                                [
+                                    "11",
+                                    "Thri-Kreen"
+                                ],
+                                [
+                                    "12",
+                                    "Githyanki"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Exceptional Linguist",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the {@feat Linguist} feat from the players handbook. In addition, You can communicate with humanoids who don't speak any language you know. You must observe the humanoids interacting with one another for at least 1 day, after which you learn a handful of important words, expressions, and gestures - enough to communicate on a rudimentary level."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "name": "Suggested Characteristics",
+                    "type": "entries",
+                    "entries": [
+                        "Geomancers leave behind the societies into which they were born to discover what life is like in other parts of the world. They seek to see how other races and civilizations survive - or why they did not. Some geomancers are driven by intellectual curiosity, while others want the fame and recognition that comes with being the first to discover a new people, a lost tribe, or the truth about an ancient empire's downfall.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Personality Trait"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "I prefer the company of those who aren't like me, including people of other races"
+                                ],
+                                [
+                                    "2",
+                                    "I'm a stickler when it comes to observing proper etiquette and local customs"
+                                ],
+                                [
+                                    "3",
+                                    "I would rather observe than meddle"
+                                ],
+                                [
+                                    "4",
+                                    "By living among violent people, I have become desensitized to violence."
+                                ],
+                                [
+                                    "5",
+                                    "I would risk life and limb to discover a new culture or unravel the secrets of a dead one."
+                                ],
+                                [
+                                    "6",
+                                    "When I arrive at a new settlement for the first time, I must learn all its customs."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Ideal"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Discovery. I want to be the first person to discover a lost culture. (Any)"
+                                ],
+                                [
+                                    "2",
+                                    "Distance. One must not interfere with the affairs of another culture - even one in need of aid. (Lawful)"
+                                ],
+                                [
+                                    "3",
+                                    "Knowledge. By understanding other races and cultures, we learn to understand ourselves. (Any)"
+                                ],
+                                [
+                                    "4",
+                                    "Power. Common people crave strong leadership, and I do my utmost to provide it. (Lawful)"
+                                ],
+                                [
+                                    "5",
+                                    "Protection. I must do everything possible to save a society facing extinction. (Good)"
+                                ],
+                                [
+                                    "6",
+                                    "Indifferent. Life is cruel. What's the point in saving people if they're going to die anyway? (Chaotic)"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Bond"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me."
+                                ],
+                                [
+                                    "2",
+                                    "Having lived among the people of a primeval tribe or clan, I long to return and see how they are faring."
+                                ],
+                                [
+                                    "3",
+                                    "Years ago, tragedy struck the members of an isolated society I befriended, and I will honor them."
+                                ],
+                                [
+                                    "4",
+                                    "I want to learn more about a particular humanoid culture that fascinates me."
+                                ],
+                                [
+                                    "5",
+                                    "I seek to avenge a clan, tribe, kingdom, or empire that was wiped out."
+                                ],
+                                [
+                                    "6",
+                                    "I have a trinket that I believe is the key to finding a long-lost society."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Flaw"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Boats make me seasick."
+                                ],
+                                [
+                                    "2",
+                                    "I talk to myself, and I don't make friends easily."
+                                ],
+                                [
+                                    "3",
+                                    "I believe that I'm intellectually superior to people from other cultures and have much to teach them."
+                                ],
+                                [
+                                    "4",
+                                    "I've picked up some unpleasant habits living among goblins, lizardfolk, or orcs."
+                                ],
+                                [
+                                    "5",
+                                    "I complain about everything."
+                                ],
+                                [
+                                    "6",
+                                    "I wear a tribal mask and never take it off."
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true
+        },
+        {
+            "name": "Illusory Imposter",
+            "source": "SFHB",
+            "page": 128,
+            "skillProficiencies": [
+                {
+                    "deception": true,
+                    "choose": {
+                        "from": [
+                            "insight",
+                            "religion",
+                            "persuasion",
+                            "sleight of hand"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "disguise kit": true,
+                    "forgery kit": true
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "_": [
+                        "fine clothes|phb",
+                        "disguise kit|phb",
+                        {
+                            "item": "pouch|phb",
+                            "containsValue": 1500
+                        }
+                    ]
+                },
+                {
+                    "a": [
+                        {
+                            "special": "stoppered bottles filled with colored liquid",
+                            "quantity": 10
+                        }
+                    ],
+                    "b": [
+                        {
+                            "special": "set of weighted dice"
+                        }
+                    ],
+                    "c": [
+                        {
+                            "special": " deck of marked cards"
+                        }
+                    ],
+                    "d": [
+                        {
+                            "special": " signet ring of an imaginary duke"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Deception}, and your choice of either {@skill Insight} , {@skill History} {@skill Persuasion} {@skill Sleight of Hand}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "{@item Disguise kit|phb}, {@item Forgery kit|phb}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A set of {@item fine clothes|phb}, a {@item disguise kit|phb}, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt {@item pouch|phb} containing 15 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Magical Identity",
+                    "type": "entries",
+                    "entries": [
+                        "You gain the Arcane Initiate feat but you must select bard, sorcerer, warlock or wizard and the 1st level spell chosen must be disguise self even if it is not on your spell list.",
+                        "You have created a secret identity that you use to conceal your identity and that offers a covering explanation for your presence in the Spheres. In addition, you can forge documents, including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy Note: This feature is a variant of the Charlatan feature."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "type": "section",
+                    "name": "Suggested Characteristics",
+                    "entries": [
+                        "Use the tables for the {@background Charlatan} background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your multiple identities."
                     ]
                 }
             ],
             "hasFluff": true
         }
+            ]
+        }
 
-    ]
-}
