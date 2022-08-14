@@ -845,7 +845,7 @@
                     "name": "Optional Feature (Astrologer): Will of the gods",
                     "type": "entries",
                     "entries": [
-                        "As a result of observing the dieties will in the stars, you are able to take advantage of such power and predictions. You gain the {@feat Lucky} feat from the players handbook. However, you may utilize your luck points on allies within 30 feet as a reaction.",
+                        "As a result of observing the dieties will in the stars, you are able to take advantage of such power and predictions. You gain the {@feat Lucky} feat from the players handbook. However, you may utilize your luck points on allies within 30 feet as a reaction. In addition, While in known space or spheres, you can determine exactly where you are without a map.",
                         "Astrologers see the hands of the gods in all of the features of the universe. They spend much of their time in contemplation, considering the true meaning behind the wondrous sights of space. This sense of distance causes warriors based societies and those who do not believe in dieties to look upon you unfavorably."
                     ],
                     "data": {
