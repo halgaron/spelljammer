@@ -2203,6 +2203,22 @@
             ],
             "hasFluff": true
         }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Adaptive Combatant",
+            "source": "SFHB",
+            "page": 41,
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "FS:F",
+                "FS:P",
+                "FS:R"
+            ],
+            "entries": [
+                "While fighting in zero gravity, underwater, prone or restrained, you do not have disadvantage on your attack rolls."
+            ]
+        }
     ]
 }
 
