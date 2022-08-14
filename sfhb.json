@@ -67,6 +67,11 @@
                     "items": [
                         {
                             "type": "item",
+                            "name": "Description:",
+                            "entry": "The Sphere Agent is a roving warrior, sailing the spacelanes seeking pirates and other criminals. Traditionally called 'Corsairs', they are semiofficial agents of the law of their systems (or perhaps of only a single nation within the system), traveling under letters of marque with “authorization to attack and board suspicious or known criminal vessels and bring the booty home. Corsairs are the customs agents, border patrol, and first line of defense for many spacefaring worlds. When entering a sphere with spacefaring civilizations, the Corsair is often the first character you meet. Despite their legal role, Corsairs are not always lawful. They pursue their enemies (who may merely fly the flag of a rival nation), capture their ships and treasure, and return a portion (sometimes a small portion) to their home nations. Corsairs' letters of marque lose significance the farther they get from their homes. Generally speaking, a Corsair's right to intercept other vessels terminates at the edge of his home sphere. (In spheres with multiple spacefaring civilizations, the zone of control may be even smaller.) Some Corsairs, particularly those who are pirates on the side, do not stop at their official borders ard are refferred to as 'privateers'. Their ability to get away with their activities depends on their strength and speed. Corsairs are the law in wildspace. When operating as agents of the law, stopping true smugglers or pirates, they are respected within their sphere, and sometimes in other 'nearby' spheres. When they engage in piracy “When they engage in piracy under cover of their police powers, they are reviled. One's opinion of a Corsair or Privateer depends on whether you are the beneficiary or the victim."
+                        },
+                        {
+                            "type": "item",
                             "name": "Skill Proficiencies",
                             "entry": "{@skill History}, {@skill Perception}"
                         },
