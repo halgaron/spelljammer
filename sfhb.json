@@ -826,7 +826,7 @@
                         {
                             "type": "item",
                             "name": "Equipment",
-                            "entry": "Scholar's {@item robes|phb}, {@item cartogapher's tools|phb} a writing kit (small {@item pouch|phb} with a quill, ink, folded parchment, and a small penknife), a borrowed {@item book|phb} on the subject of your current study, and a {@item pouch|phb} containing 10 gp"
+                            "entry": "Scholar's {@item robes|phb}, {@item cartogapher's tools|phb}, {@item Navigator's tools|phb}, a writing kit (small {@item pouch|phb} with a quill, ink, folded parchment, and a small penknife), a borrowed {@item book|phb} on the subject of your current study, and a {@item pouch|phb} containing 10 gp"
                         }
                     ]
                 },
