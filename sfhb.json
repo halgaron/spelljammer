@@ -722,7 +722,7 @@
                     "name": "Feature: Magical Item Network",
                     "type": "entries",
                     "entries": [
-                        "Due to your extensive experience in trade and practical study of magical items, You gain the {@feat ritual caster} feat from the players handbook and must choose wizard for the feat and identify as one of the rituals chosen. If you are a spellcaster who gains ritual casting, you gain identify, and another ritual from your class list or wizard's(your choice).",
+                        "Due to your extensive experience in trade and practical study of magical items, You gain the {@feat ritual caster} feat from the players handbook and must choose wizard with identify and detect magic as your chosen rituals. If you are a spellcaster who gains ritual casting, you gain identify, and another ritual from your class list or wizard's(your choice).",
                         "You also have a vast network of contacts which makes it easier for you to procure or sell magical items. When buying magic items during downtime, if you spend money on the search, you pay 50 gp instead of 100 gp per bonus modifier. In addition, you can search for up to 2 magical items per workweek and double the number of other magical items for sale. (Example: if you roll a 16-20 you roll 2d4 instead of 1d4 times om the magic item table D). If you are selling a magical item, you do not need to pay the 25 gp finder's fee and you can also sell up to two items at a time.",
                         "As a result of your travels and possibly an affiliation with a trading company, most merchants you deal with across the spheres will usually treat you more favorably than most folk, that is of course unless you sell cursed, fake or mislabled items."
                     ],
@@ -826,7 +826,7 @@
                         {
                             "type": "item",
                             "name": "Equipment",
-                            "entry": "Scholar's {@item robes|phb}, {@item cartogapher's tools|phb} a writing kit (small {@item pouch|phb} with a quill, ink, folded parchment, and a small penknife), a borrowed {@item book|phb} on the subject of your current study, and a {@item pouch|phb} containing 10 gp"
+                            "entry": "Scholar's {@item robes|phb}, {@item cartogapher's tools|phb}, {@item Navigator's tools|phb}, a writing kit (small {@item pouch|phb} with a quill, ink, folded parchment, and a small penknife), a borrowed {@item book|phb} on the subject of your current study, and a {@item pouch|phb} containing 10 gp"
                         }
                     ]
                 },
@@ -2203,6 +2203,23 @@
             ],
             "hasFluff": true
         }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Adaptive Combatant",
+            "source": "SFHB",
+            "page": 41,
+            "isClassFeatureVariant": true,
+            "featureType": [
+                "FS:F",
+                "FS:P",
+                "FS:R"
+            ],
+            "entries": [
+                "While fighting in zero gravity, underwater, prone, restrained or firing into strong wind, you do not have disadvantage on your attack rolls."
+            ]
+        }
+
     ]
 }
 
